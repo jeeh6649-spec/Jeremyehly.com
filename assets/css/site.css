@@ -188,7 +188,7 @@ section.block { padding: 52px 0; border-top: 1px solid var(--lg); }
 .contact-form-block textarea,
 .contact-form-block select {
   border: 1px solid var(--lg); background: var(--white); color: var(--k);
-  font-family: inherit; font-size: 15px; padding: 12px 14px; border-radius: 0;
+  font-family: inherit; font-size: 16px; padding: 12px 14px; border-radius: 0;
 }
 .contact-form-block textarea { min-height: 140px; resize: vertical; }
 .contact-form-block button {
@@ -321,9 +321,13 @@ section.block { padding: 52px 0; border-top: 1px solid var(--lg); }
 .hero-slide.active { opacity: 1; filter: blur(0); pointer-events: auto; }
 .hero-slide::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(26,26,24,0.6), rgba(26,26,24,0) 45%); }
 .hero-slide-label { position: absolute; left: 8vw; bottom: 24px; z-index: 2; color: var(--white); font-size: clamp(18px, 2.4vw, 26px); font-weight: 800; letter-spacing: -0.015em; }
-.hero-dots { position: absolute; right: 8vw; bottom: 28px; z-index: 2; display: flex; gap: 8px; }
-.hero-dot { width: 8px; height: 8px; border-radius: 50%; border: 1px solid var(--white); background: transparent; cursor: pointer; padding: 0; }
-.hero-dot.active { background: var(--white); }
+.hero-dots { position: absolute; right: 8vw; bottom: 28px; z-index: 2; display: flex; gap: 0; }
+.hero-dot { width: 24px; height: 24px; border-radius: 50%; border: none; background: none; cursor: pointer; padding: 0; position: relative; }
+.hero-dot::before {
+  content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: 8px; height: 8px; border-radius: 50%; border: 1px solid var(--white); background: transparent;
+}
+.hero-dot.active::before { background: var(--white); }
 
 /* == cursor-tracking zoom lens, escapes gallery scroll clipping via fixed position == */
 .zoom-lens {
@@ -376,9 +380,13 @@ section.block { padding: 52px 0; border-top: 1px solid var(--lg); }
 .quote-slide-attr { font-size: 13px; font-weight: 800; color: var(--k); transition: opacity 0.5s ease, filter 0.5s ease; filter: blur(0); margin-bottom: 22px; }
 .quote-slide-attr .pipe { font-weight: 300; color: var(--g); margin: 0 8px; }
 .quote-fade { opacity: 0; filter: blur(6px); }
-.quote-dots { display: flex; gap: 8px; }
-.quote-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--lg); border: none; cursor: pointer; padding: 0; }
-.quote-dot.active { background: var(--k); }
+.quote-dots { display: flex; gap: 0; }
+.quote-dot { width: 24px; height: 24px; border-radius: 50%; background: none; border: none; cursor: pointer; padding: 0; position: relative; }
+.quote-dot::before {
+  content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: 7px; height: 7px; border-radius: 50%; background: var(--lg);
+}
+.quote-dot.active::before { background: var(--k); }
 
 /* == quote static variant (single quote, no slider) == */
 .quote-static-text {
