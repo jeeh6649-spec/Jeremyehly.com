@@ -7,6 +7,35 @@
 
 document.addEventListener('DOMContentLoaded', function () {
 
+  /* ===== mobile nav toggle ===== */
+  var navToggle = document.getElementById('navToggle');
+  var siteNav = document.getElementById('siteNav');
+  if (navToggle && siteNav) {
+    function closeNav() {
+      siteNav.classList.remove('nav-open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    }
+    function openNav() {
+      siteNav.classList.add('nav-open');
+      navToggle.setAttribute('aria-expanded', 'true');
+    }
+    navToggle.addEventListener('click', function () {
+      var isOpen = siteNav.classList.contains('nav-open');
+      if (isOpen) { closeNav(); } else { openNav(); }
+    });
+    siteNav.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', closeNav);
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') { closeNav(); }
+    });
+    document.addEventListener('click', function (e) {
+      if (!siteNav.classList.contains('nav-open')) { return; }
+      if (siteNav.contains(e.target) || navToggle.contains(e.target)) { return; }
+      closeNav();
+    });
+  }
+
   /* ===== Lead Statement Read More toggle ===== */
   var readBtn = document.getElementById('readMoreBtn');
   var readMore = document.getElementById('introMore');

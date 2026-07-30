@@ -1,7 +1,10 @@
 <header>
   <div class="wrap">
     <a class="logo" href="{{ '/' | relative_url }}">Jeremy Ehly</a>
-    <nav>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="siteNav">
       <a href="{{ '/ai-leadership/' | relative_url }}"{% if page.nav == 'ai-leadership' %} class="current"{% endif %}>AI Leadership</a>
       <a href="{{ '/teaching/' | relative_url }}"{% if page.nav == 'teaching' %} class="current"{% endif %}>Teaching</a>
       <a href="{{ '/work/' | relative_url }}"{% if page.nav == 'work' %} class="current"{% endif %}>Work</a>
