@@ -1,0 +1,12 @@
+{% assign qcourse = site.data.student_evaluation_quotes.courses | where: "slug", include.slug | first %}
+{% if qcourse %}
+{% assign quotes = qcourse.quotes %}
+{% assign first_quote = quotes | first %}
+{% assign first_attr = qcourse.title | append: " " %}
+      <div class="quote-slide-text">&ldquo;{{ first_quote.text | escape }}&rdquo;</div>
+      <div class="quote-slide-attr">{{ qcourse.title | escape }} <span class="pipe">|</span> {{ first_quote.term | escape }} course evaluation</div>
+      <div class="quote-dots">
+        {% for q in quotes %}<button class="quote-dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}" aria-label="Quote {{ forloop.index }}"></button>{% endfor %}
+      </div>
+      <script type="application/json" class="quote-data">[{% for q in quotes %}{"text": {{ q.text | jsonify }}, "attr": {{ qcourse.title | append: " | " | append: q.term | append: " course evaluation" | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
+{% endif %}

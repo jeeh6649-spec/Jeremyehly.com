@@ -1,0 +1,20 @@
+{
+  "course": {
+    "slug": "theory-and-ethics-of-design",
+    "title": "Theory and Ethics of Design",
+    "courseCode": "EPOD 3101",
+    "term": "Fall 2025",
+    "institution": "University of Colorado Boulder",
+    "program": "Environmental Design",
+    "primaryInstructor": "Jeremy Ehly",
+    "status": "syllabus-led-draft-awaiting-evidence",
+    "brandStylesheet": "../brand/brand-tokens.css",
+    "summary": "A critical seminar tracing definitions of design, modernist principles, non-Western perspectives, and the ethical responsibilities of professional practice.",
+    "mediaNote": "The current source animation is an editorial placeholder and is not approved as portfolio evidence. No public student-work assets are included yet.",
+    "content": {
+      "overview": "content/course-overview.md",
+      "instructorReflection": "content/instructor-reflection.md"
+    }
+  },
+  "assets": []
+}

@@ -1,0 +1,182 @@
+{
+  "course": {
+    "slug": "studio-one-product-design",
+    "title": "Studio I | Environmental Product Design",
+    "courseTitle": "Introduction to Environmental Product Design Studio",
+    "courseCode": "ENVD 1010",
+    "term": "Selected teaching, 2021-2023",
+    "institution": "University of Colorado Boulder",
+    "program": "Environmental Product Design",
+    "instructorRole": "Primary instructor",
+    "brandStylesheet": "../brand/brand-tokens.css",
+    "summary": "A foundational studio introducing user-centered design through observation, concept generation, drawing, prototyping, testing, iteration, and visual communication.",
+    "mediaNote": "Selected anonymous student work. Small student identifiers were masked; personal wallet projects were kept private.",
+    "content": {
+      "overview": "content/course-overview.md",
+      "instructorReflection": "content/instructor-reflection.md",
+      "studentFeedback": "content/student-feedback.md"
+    }
+  },
+  "projects": [
+    {
+      "id": "school-super-sidekick",
+      "order": 1,
+      "title": "School Super Sidekick",
+      "summary": "A friendly classroom companion and connected bracelet explore how tangible interaction might support young children learning remotely.",
+      "content": "content/projects/01-school-super-sidekick.md",
+      "heroAsset": "school-super-sidekick-01"
+    },
+    {
+      "id": "care-crib",
+      "order": 2,
+      "title": "Care Crib",
+      "summary": "A neonatal support concept uses warmth, pressure, and a transmitted heartbeat to strengthen contact between premature infants and their parents.",
+      "content": "content/projects/02-care-crib.md",
+      "heroAsset": "care-crib-01"
+    },
+    {
+      "id": "procrasti-watch",
+      "order": 3,
+      "title": "Procrasti-Watch",
+      "summary": "A wearable study aid turns assignments, focus intervals, and peer progress into glanceable prompts for students managing procrastination.",
+      "content": "content/projects/03-procrasti-watch.md",
+      "heroAsset": "procrasti-watch-01"
+    },
+    {
+      "id": "snowy-the-bear",
+      "order": 4,
+      "title": "Snowy the Bear",
+      "summary": "An avalanche-awareness campaign combines a physical trail marker, mapping, information design, and a memorable public-safety identity.",
+      "content": "content/projects/04-snowy-the-bear.md",
+      "heroAsset": "snowy-the-bear-01"
+    }
+  ],
+  "assets": [
+    {
+      "id": "school-super-sidekick-01",
+      "project": "school-super-sidekick",
+      "order": "01",
+      "type": "image",
+      "role": "finished-prototype",
+      "caption": "School Super Sidekick prototype",
+      "featured": true,
+      "src": "media/01-school-super-sidekick/01-school-super-sidekick-prototype.webp",
+      "thumbnail": "media/01-school-super-sidekick/01-school-super-sidekick-prototype-thumb.webp",
+      "width": 328,
+      "height": 316,
+      "bytes": 8068
+    },
+    {
+      "id": "school-super-sidekick-02",
+      "project": "school-super-sidekick",
+      "order": "02",
+      "type": "image",
+      "role": "design-proposal",
+      "caption": "School Super Sidekick design proposal",
+      "featured": false,
+      "src": "media/01-school-super-sidekick/02-school-super-sidekick-design-proposal.webp",
+      "thumbnail": "media/01-school-super-sidekick/02-school-super-sidekick-design-proposal-thumb.webp",
+      "width": 2211,
+      "height": 1669,
+      "bytes": 216240
+    },
+    {
+      "id": "school-super-sidekick-03",
+      "project": "school-super-sidekick",
+      "order": "03",
+      "type": "image",
+      "role": "technical-drawing",
+      "caption": "School Super Sidekick technical drawings",
+      "featured": false,
+      "src": "media/01-school-super-sidekick/03-school-super-sidekick-technical-drawings.webp",
+      "thumbnail": "media/01-school-super-sidekick/03-school-super-sidekick-technical-drawings-thumb.webp",
+      "width": 2309,
+      "height": 1732,
+      "bytes": 243852
+    },
+    {
+      "id": "care-crib-01",
+      "project": "care-crib",
+      "order": "01",
+      "type": "image",
+      "role": "design-proposal",
+      "caption": "Care Crib user research and design proposal",
+      "featured": true,
+      "src": "media/02-care-crib/01-care-crib-user-research-and-design-proposal.webp",
+      "thumbnail": "media/02-care-crib/01-care-crib-user-research-and-design-proposal-thumb.webp",
+      "width": 2310,
+      "height": 1731,
+      "bytes": 366840
+    },
+    {
+      "id": "care-crib-02",
+      "project": "care-crib",
+      "order": "02",
+      "type": "image",
+      "role": "technical-drawing",
+      "caption": "Care Crib technical drawings",
+      "featured": false,
+      "src": "media/02-care-crib/02-care-crib-technical-drawings.webp",
+      "thumbnail": "media/02-care-crib/02-care-crib-technical-drawings-thumb.webp",
+      "width": 2400,
+      "height": 1826,
+      "bytes": 220680
+    },
+    {
+      "id": "procrasti-watch-01",
+      "project": "procrasti-watch",
+      "order": "01",
+      "type": "image",
+      "role": "design-proposal",
+      "caption": "Procrasti-Watch design proposal",
+      "featured": true,
+      "src": "media/03-procrasti-watch/01-procrasti-watch-design-proposal.webp",
+      "thumbnail": "media/03-procrasti-watch/01-procrasti-watch-design-proposal-thumb.webp",
+      "width": 1333,
+      "height": 749,
+      "bytes": 130648
+    },
+    {
+      "id": "procrasti-watch-02",
+      "project": "procrasti-watch",
+      "order": "02",
+      "type": "image",
+      "role": "technical-drawing",
+      "caption": "Procrasti-Watch technical drawings",
+      "featured": false,
+      "src": "media/03-procrasti-watch/02-procrasti-watch-technical-drawings.webp",
+      "thumbnail": "media/03-procrasti-watch/02-procrasti-watch-technical-drawings-thumb.webp",
+      "width": 2400,
+      "height": 1763,
+      "bytes": 156054
+    },
+    {
+      "id": "snowy-the-bear-01",
+      "project": "snowy-the-bear",
+      "order": "01",
+      "type": "image",
+      "role": "design-proposal",
+      "caption": "Snowy the Bear design process and trail marker",
+      "featured": true,
+      "src": "media/04-snowy-the-bear/01-snowy-the-bear-design-process-and-trail-marker.webp",
+      "thumbnail": "media/04-snowy-the-bear/01-snowy-the-bear-design-process-and-trail-marker-thumb.webp",
+      "width": 2309,
+      "height": 1732,
+      "bytes": 344020
+    },
+    {
+      "id": "snowy-the-bear-02",
+      "project": "snowy-the-bear",
+      "order": "02",
+      "type": "image",
+      "role": "campaign-system",
+      "caption": "Snowy the Bear campaign and information system",
+      "featured": false,
+      "src": "media/04-snowy-the-bear/02-snowy-the-bear-campaign-and-information-system.webp",
+      "thumbnail": "media/04-snowy-the-bear/02-snowy-the-bear-campaign-and-information-system-thumb.webp",
+      "width": 2309,
+      "height": 1732,
+      "bytes": 299264
+    }
+  ]
+}

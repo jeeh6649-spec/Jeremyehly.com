@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -eu
+
+site_root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+cd "$site_root"
+
+if [ -n "${RUBYOPT:-}" ]; then
+  export RUBYOPT="-r./scripts/ruby4-jekyll-compat.rb $RUBYOPT"
+else
+  export RUBYOPT="-r./scripts/ruby4-jekyll-compat.rb"
+fi
+
+exec bundle exec jekyll "$@"

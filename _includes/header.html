@@ -1,0 +1,11 @@
+<header>
+  <div class="wrap">
+    <a class="logo" href="{{ '/' | relative_url }}">Jeremy Ehly</a>
+    <nav>
+      <a href="{{ '/ai-leadership/' | relative_url }}"{% if page.nav == 'ai-leadership' %} class="current"{% endif %}>AI Leadership</a>
+      <a href="{{ '/teaching/' | relative_url }}"{% if page.nav == 'teaching' %} class="current"{% endif %}>Teaching</a>
+      <a href="{{ '/work/' | relative_url }}"{% if page.nav == 'work' %} class="current"{% endif %}>Work</a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.nav == 'about' %} class="current"{% endif %}>About</a>
+    </nav>
+  </div>
+</header>

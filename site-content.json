@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-07-29",
+  "siteTitle": "Jeremy Ehly",
+  "navigation": [
+    {
+      "label": "AI Leadership",
+      "route": "/ai-leadership",
+      "directory": "ai-leadership"
+    },
+    {
+      "label": "Teaching",
+      "route": "/teaching",
+      "directory": "teaching"
+    },
+    {
+      "label": "Work",
+      "route": "/work",
+      "directory": "work"
+    },
+    {
+      "label": "About",
+      "route": "/about",
+      "directory": "about"
+    }
+  ],
+  "shared": {
+    "editorialGuide": "_shared/editorial/voice-style-guide.md",
+    "headshot": "_shared/brand/images/jeremy-ehly-headshot.webp",
+    "headshotThumbnail": "_shared/brand/images/jeremy-ehly-headshot-thumb.webp"
+  },
+  "collections": {
+    "teaching": {
+      "catalog": "teaching/catalog.json",
+      "contentRoot": "teaching/courses",
+      "evaluationQuotes": "_data/student_evaluation_quotes.json",
+      "status": "complete"
+    },
+    "work": {
+      "catalog": "work/catalog.json",
+      "contentRoot": "work/projects",
+      "mediaQueue": "work/media-queue.json",
+      "status": "complete"
+    }
+  },
+  "publicationPolicy": {
+    "phoneNumber": false,
+    "privateSourceDocuments": false,
+    "studentNamesInIndividualWork": false,
+    "collectiveDesignBuildTeamCredits": true,
+    "serveSourceCatalogsDirectly": false
+  }
+}

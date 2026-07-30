@@ -1,0 +1,33 @@
+---
+layout: default
+title: Page Not Found
+seo_title: Page Not Found
+description: "The requested page could not be found. Explore Jeremy Ehly's work in design education, architecture, and ethical AI."
+noindex: true
+sitemap: false
+extra_js: /assets/js/not-found.js
+---
+
+<section
+  class="not-found"
+  id="notFoundReveal"
+  tabindex="0"
+  aria-describedby="notFoundDescription"
+>
+  <div class="not-found-scene" aria-hidden="true"></div>
+  <div class="wrap not-found-head">
+    <p class="page-eyebrow">404 <span class="not-found-pipe">|</span> Page not found</p>
+    <h1 class="not-found-title">This page isn't here.</h1>
+    <p class="not-found-lead">The work is. Choose a direction.</p>
+    <nav class="not-found-nav" aria-label="Continue exploring">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/ai-leadership/' | relative_url }}">AI Leadership</a>
+      <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
+      <a href="{{ '/work/' | relative_url }}">Work</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+    </nav>
+  </div>
+  <span class="visually-hidden" id="notFoundDescription">
+    A hidden monochrome illustration shows marmots drinking espresso and dancing around a giant disco ball.
+  </span>
+</section>

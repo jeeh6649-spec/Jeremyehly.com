@@ -1,0 +1,673 @@
+{
+  "course": {
+    "slug": "generative-design-with-ai",
+    "title": "Generative Design with AI",
+    "historicalTitle": "Lassoing the Robots",
+    "courseCode": "ENVD 4365-002",
+    "term": "Spring 2026",
+    "institution": "University of Colorado Boulder",
+    "program": "Environmental Design",
+    "brandStylesheet": "../brand/brand-tokens.css",
+    "summary": "An advanced environmental design seminar exploring how generative tools can support research, ideation, visualization, fabrication, and speculative storytelling without surrendering human judgment or creative agency.",
+    "mediaNote": "Selected course work and instructor demonstrations.",
+    "content": {
+      "overview": "content/course-overview.md",
+      "instructorReflection": "content/instructor-reflection.md",
+      "criticalReflections": "content/critical-reflections.md",
+      "studentFeedback": "content/student-feedback.md"
+    }
+  },
+  "groups": [
+    {
+      "id": "control-geometry",
+      "order": 1,
+      "title": "From Control Geometry to Exploration",
+      "description": "Analog models become intentional inputs for prompting, iteration, refinement, alternate views, and motion."
+    },
+    {
+      "id": "image-to-object",
+      "order": 2,
+      "title": "From Image to Physical Object",
+      "description": "Students translate prompts and images into generated 3D geometry and tangible printed objects."
+    },
+    {
+      "id": "speculative-design",
+      "order": 3,
+      "title": "Speculative Design in 2051",
+      "description": "Short films use generative media to take critical positions on AI, design practice, and daily life."
+    }
+  ],
+  "projects": [
+    {
+      "id": "multistory-building",
+      "group": "control-geometry",
+      "order": 1,
+      "title": "Multistory Building",
+      "description": "A Duplo model directs an architectural exploration across image generation, iteration, and animation."
+    },
+    {
+      "id": "yacht",
+      "group": "control-geometry",
+      "order": 2,
+      "title": "Yacht",
+      "description": "A constrained block model becomes a test bed for formal, material, and stylistic variation."
+    },
+    {
+      "id": "snow-blaster",
+      "group": "control-geometry",
+      "order": 3,
+      "title": "Snow Blaster",
+      "description": "A physical control model guides the development of a speculative snow vehicle."
+    },
+    {
+      "id": "art-to-ring",
+      "group": "image-to-object",
+      "order": 1,
+      "title": "Art to Ring",
+      "description": "A visual reference moves through prompting, image generation, digital modeling, and fabrication."
+    },
+    {
+      "id": "portrait-chess-pieces",
+      "group": "image-to-object",
+      "order": 2,
+      "title": "Portrait Chess Pieces",
+      "description": "Portrait references become directed images, generated 3D models, and printed chess pieces."
+    },
+    {
+      "id": "bunny-key-ring",
+      "group": "image-to-object",
+      "order": 3,
+      "title": "Bunny Key Ring",
+      "description": "A photographed subject becomes an image prompt, digital model, and small printed object."
+    },
+    {
+      "id": "ai-optimized-life",
+      "group": "speculative-design",
+      "order": 1,
+      "title": "AI-Optimized Life",
+      "statement": "What if time stopped feeling real because AI optimized every moment of your life?"
+    },
+    {
+      "id": "attention-and-boredom",
+      "group": "speculative-design",
+      "order": 2,
+      "title": "Attention and Boredom",
+      "statement": "What if, by 2051, AI-driven overstimulation destroyed humanity's ability to tolerate boredom, triggering a stimulant epidemic that collapsed society?"
+    },
+    {
+      "id": "life-beyond-mandatory-work",
+      "group": "speculative-design",
+      "order": 3,
+      "title": "Life Beyond Mandatory Work",
+      "statement": "What if by 2051, work is no longer mandatory and people are free to choose how they spend their time, shaping their lives around play, creativity, and personal fulfillment?"
+    },
+    {
+      "id": "architecture-after-ai-failure",
+      "group": "speculative-design",
+      "order": 4,
+      "title": "Architecture After AI Failure",
+      "statement": "What if by 2051 architecture became so dependent on AI that when the systems failed, the profession had to rediscover drawing, building, and human knowledge from the ground up?"
+    },
+    {
+      "id": "vapor-cloud-infrastructure",
+      "group": "speculative-design",
+      "order": 5,
+      "title": "Vapor Cloud Infrastructure",
+      "statement": "What if in 2051 AI-powered atmospheric hydration clouds replaced plumbing, transforming water from an invisible public utility into a visible guided service that reshaped domestic ritual, urban life, and access to survival itself?"
+    }
+  ],
+  "assets": [
+    {
+      "id": "multistory-building-01",
+      "project": "multistory-building",
+      "order": "01",
+      "type": "image",
+      "caption": "Duplo control geometry",
+      "src": "media/01-control-geometry/01-multistory-building/01-duplo-control-geometry.webp",
+      "thumbnail": "media/01-control-geometry/01-multistory-building/01-duplo-control-geometry-thumb.webp",
+      "width": 2100,
+      "height": 2400,
+      "bytes": 221670
+    },
+    {
+      "id": "multistory-building-02",
+      "project": "multistory-building",
+      "order": "02",
+      "type": "image",
+      "caption": "Structured design prompt",
+      "src": "media/01-control-geometry/01-multistory-building/02-structured-design-prompt.webp",
+      "thumbnail": "media/01-control-geometry/01-multistory-building/02-structured-design-prompt-thumb.webp",
+      "width": 2400,
+      "height": 511,
+      "bytes": 122322
+    },
+    {
+      "id": "multistory-building-03",
+      "project": "multistory-building",
+      "order": "03",
+      "type": "image",
+      "caption": "First architectural iteration",
+      "src": "media/01-control-geometry/01-multistory-building/03-first-architectural-iteration.webp",
+      "thumbnail": "media/01-control-geometry/01-multistory-building/03-first-architectural-iteration-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 159484
+    },
+    {
+      "id": "multistory-building-04",
+      "project": "multistory-building",
+      "order": "04",
+      "type": "image",
+      "caption": "Building form variations",
+      "src": "media/01-control-geometry/01-multistory-building/04-building-form-variations.webp",
+      "thumbnail": "media/01-control-geometry/01-multistory-building/04-building-form-variations-thumb.webp",
+      "width": 1997,
+      "height": 2002,
+      "bytes": 309972
+    },
+    {
+      "id": "multistory-building-05",
+      "project": "multistory-building",
+      "order": "05",
+      "type": "image",
+      "caption": "Refined multistory building",
+      "src": "media/01-control-geometry/01-multistory-building/05-refined-multistory-building.webp",
+      "thumbnail": "media/01-control-geometry/01-multistory-building/05-refined-multistory-building-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 167736
+    },
+    {
+      "id": "multistory-building-06",
+      "project": "multistory-building",
+      "order": "06",
+      "type": "image",
+      "caption": "Alternate building views",
+      "src": "media/01-control-geometry/01-multistory-building/06-alternate-building-views.webp",
+      "thumbnail": "media/01-control-geometry/01-multistory-building/06-alternate-building-views-thumb.webp",
+      "width": 2400,
+      "height": 572,
+      "bytes": 117102
+    },
+    {
+      "id": "multistory-building-07",
+      "project": "multistory-building",
+      "order": "07",
+      "type": "video",
+      "caption": "Building turntable animation",
+      "src": "media/01-control-geometry/01-multistory-building/07-building-turntable-animation.mp4",
+      "width": 1278,
+      "height": 720,
+      "durationSeconds": 10.08,
+      "bytes": 1420897
+    },
+    {
+      "id": "yacht-01",
+      "project": "yacht",
+      "order": "01",
+      "type": "image",
+      "caption": "Duplo yacht geometry",
+      "src": "media/01-control-geometry/02-yacht/01-duplo-yacht-geometry.webp",
+      "thumbnail": "media/01-control-geometry/02-yacht/01-duplo-yacht-geometry-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 73278
+    },
+    {
+      "id": "yacht-02",
+      "project": "yacht",
+      "order": "02",
+      "type": "image",
+      "caption": "Initial yacht rendering",
+      "src": "media/01-control-geometry/02-yacht/02-initial-yacht-rendering.webp",
+      "thumbnail": "media/01-control-geometry/02-yacht/02-initial-yacht-rendering-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 61992
+    },
+    {
+      "id": "yacht-03",
+      "project": "yacht",
+      "order": "03",
+      "type": "image",
+      "caption": "Yacht form variations",
+      "src": "media/01-control-geometry/02-yacht/03-yacht-form-variations.webp",
+      "thumbnail": "media/01-control-geometry/02-yacht/03-yacht-form-variations-thumb.webp",
+      "width": 2400,
+      "height": 1316,
+      "bytes": 104690
+    },
+    {
+      "id": "yacht-04",
+      "project": "yacht",
+      "order": "04",
+      "type": "image",
+      "caption": "Yacht color variations",
+      "src": "media/01-control-geometry/02-yacht/04-yacht-color-variations.webp",
+      "thumbnail": "media/01-control-geometry/02-yacht/04-yacht-color-variations-thumb.webp",
+      "width": 2400,
+      "height": 1457,
+      "bytes": 174632
+    },
+    {
+      "id": "yacht-05",
+      "project": "yacht",
+      "order": "05",
+      "type": "image",
+      "caption": "Yacht style variations",
+      "src": "media/01-control-geometry/02-yacht/05-yacht-style-variations.webp",
+      "thumbnail": "media/01-control-geometry/02-yacht/05-yacht-style-variations-thumb.webp",
+      "width": 1358,
+      "height": 2400,
+      "bytes": 210276
+    },
+    {
+      "id": "yacht-06",
+      "project": "yacht",
+      "order": "06",
+      "type": "video",
+      "caption": "Yacht turntable animation",
+      "src": "media/01-control-geometry/02-yacht/06-yacht-turntable-animation.mp4",
+      "width": 1278,
+      "height": 720,
+      "durationSeconds": 5.08,
+      "bytes": 408358
+    },
+    {
+      "id": "snow-blaster-01",
+      "project": "snow-blaster",
+      "order": "01",
+      "type": "image",
+      "caption": "Duplo vehicle geometry",
+      "src": "media/01-control-geometry/03-snow-blaster/01-duplo-vehicle-geometry.webp",
+      "thumbnail": "media/01-control-geometry/03-snow-blaster/01-duplo-vehicle-geometry-thumb.webp",
+      "width": 2092,
+      "height": 2159,
+      "bytes": 88340
+    },
+    {
+      "id": "snow-blaster-02",
+      "project": "snow-blaster",
+      "order": "02",
+      "type": "image",
+      "caption": "Structured vehicle prompt",
+      "src": "media/01-control-geometry/03-snow-blaster/02-structured-vehicle-prompt.webp",
+      "thumbnail": "media/01-control-geometry/03-snow-blaster/02-structured-vehicle-prompt-thumb.webp",
+      "width": 2400,
+      "height": 765,
+      "bytes": 296578
+    },
+    {
+      "id": "snow-blaster-03",
+      "project": "snow-blaster",
+      "order": "03",
+      "type": "image",
+      "caption": "Initial snow vehicle rendering",
+      "src": "media/01-control-geometry/03-snow-blaster/03-initial-snow-vehicle-rendering.webp",
+      "thumbnail": "media/01-control-geometry/03-snow-blaster/03-initial-snow-vehicle-rendering-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 71364
+    },
+    {
+      "id": "snow-blaster-04",
+      "project": "snow-blaster",
+      "order": "04",
+      "type": "image",
+      "caption": "Form and style studies",
+      "src": "media/01-control-geometry/03-snow-blaster/04-form-and-style-studies.webp",
+      "thumbnail": "media/01-control-geometry/03-snow-blaster/04-form-and-style-studies-thumb.webp",
+      "width": 2400,
+      "height": 1157,
+      "bytes": 202896
+    },
+    {
+      "id": "snow-blaster-05",
+      "project": "snow-blaster",
+      "order": "05",
+      "type": "image",
+      "caption": "Alternate vehicle views",
+      "src": "media/01-control-geometry/03-snow-blaster/05-alternate-vehicle-views.webp",
+      "thumbnail": "media/01-control-geometry/03-snow-blaster/05-alternate-vehicle-views-thumb.webp",
+      "width": 2400,
+      "height": 574,
+      "bytes": 126118
+    },
+    {
+      "id": "snow-blaster-06a",
+      "project": "snow-blaster",
+      "order": "06a",
+      "type": "video",
+      "caption": "Snow vehicle animation",
+      "src": "media/01-control-geometry/03-snow-blaster/06a-snow-vehicle-animation.mp4",
+      "width": 1278,
+      "height": 720,
+      "durationSeconds": 10.08,
+      "bytes": 1496152
+    },
+    {
+      "id": "snow-blaster-06b",
+      "project": "snow-blaster",
+      "order": "06b",
+      "type": "video",
+      "caption": "Snow vehicle motion study",
+      "src": "media/01-control-geometry/03-snow-blaster/06b-snow-vehicle-motion-study.mp4",
+      "width": 1278,
+      "height": 720,
+      "durationSeconds": 5.08,
+      "bytes": 887846
+    },
+    {
+      "id": "art-to-ring-01",
+      "project": "art-to-ring",
+      "order": "01",
+      "type": "image",
+      "caption": "Painting reference and prompt",
+      "src": "media/02-image-to-object/01-art-to-ring/01-painting-reference-and-prompt.webp",
+      "thumbnail": "media/02-image-to-object/01-art-to-ring/01-painting-reference-and-prompt-thumb.webp",
+      "width": 2285,
+      "height": 1749,
+      "bytes": 197484
+    },
+    {
+      "id": "art-to-ring-02",
+      "project": "art-to-ring",
+      "order": "02",
+      "type": "image",
+      "caption": "AI-generated ring concept",
+      "src": "media/02-image-to-object/01-art-to-ring/02-ai-generated-ring-concept.webp",
+      "thumbnail": "media/02-image-to-object/01-art-to-ring/02-ai-generated-ring-concept-thumb.webp",
+      "width": 2400,
+      "height": 1539,
+      "bytes": 97568
+    },
+    {
+      "id": "art-to-ring-03",
+      "project": "art-to-ring",
+      "order": "03",
+      "type": "image",
+      "caption": "Ring model in Rhino",
+      "src": "media/02-image-to-object/01-art-to-ring/03-ring-model-in-rhino.webp",
+      "thumbnail": "media/02-image-to-object/01-art-to-ring/03-ring-model-in-rhino-thumb.webp",
+      "width": 888,
+      "height": 639,
+      "bytes": 20992
+    },
+    {
+      "id": "art-to-ring-04a",
+      "project": "art-to-ring",
+      "order": "04a",
+      "type": "image",
+      "caption": "Printed ring in hand",
+      "src": "media/02-image-to-object/01-art-to-ring/04a-printed-ring-in-hand.webp",
+      "thumbnail": "media/02-image-to-object/01-art-to-ring/04a-printed-ring-in-hand-thumb.webp",
+      "width": 2400,
+      "height": 1515,
+      "bytes": 114270
+    },
+    {
+      "id": "art-to-ring-04b",
+      "project": "art-to-ring",
+      "order": "04b",
+      "type": "image",
+      "caption": "Printed ring detail",
+      "src": "media/02-image-to-object/01-art-to-ring/04b-printed-ring-detail.webp",
+      "thumbnail": "media/02-image-to-object/01-art-to-ring/04b-printed-ring-detail-thumb.webp",
+      "width": 2400,
+      "height": 1515,
+      "bytes": 112760
+    },
+    {
+      "id": "portrait-chess-pieces-01",
+      "project": "portrait-chess-pieces",
+      "order": "01",
+      "type": "image",
+      "caption": "Portrait references and prompt",
+      "src": "media/02-image-to-object/02-portrait-chess-pieces/01-portrait-references-and-prompt.webp",
+      "thumbnail": "media/02-image-to-object/02-portrait-chess-pieces/01-portrait-references-and-prompt-thumb.webp",
+      "width": 1946,
+      "height": 2055,
+      "bytes": 289526
+    },
+    {
+      "id": "portrait-chess-pieces-02",
+      "project": "portrait-chess-pieces",
+      "order": "02",
+      "type": "image",
+      "caption": "Directed chess-piece concepts",
+      "src": "media/02-image-to-object/02-portrait-chess-pieces/02-directed-chess-piece-concepts.webp",
+      "thumbnail": "media/02-image-to-object/02-portrait-chess-pieces/02-directed-chess-piece-concepts-thumb.webp",
+      "width": 2238,
+      "height": 1787,
+      "bytes": 80950
+    },
+    {
+      "id": "portrait-chess-pieces-03a",
+      "project": "portrait-chess-pieces",
+      "order": "03a",
+      "type": "image",
+      "caption": "Generated 3D chess models",
+      "src": "media/02-image-to-object/02-portrait-chess-pieces/03a-generated-3d-chess-models.webp",
+      "thumbnail": "media/02-image-to-object/02-portrait-chess-pieces/03a-generated-3d-chess-models-thumb.webp",
+      "width": 2400,
+      "height": 1648,
+      "bytes": 67498
+    },
+    {
+      "id": "portrait-chess-pieces-03b",
+      "project": "portrait-chess-pieces",
+      "order": "03b",
+      "type": "video",
+      "caption": "Chess piece turntable one",
+      "src": "media/02-image-to-object/02-portrait-chess-pieces/03b-chess-piece-turntable-one.mp4",
+      "width": 610,
+      "height": 720,
+      "durationSeconds": 11.63,
+      "bytes": 199161
+    },
+    {
+      "id": "portrait-chess-pieces-03c",
+      "project": "portrait-chess-pieces",
+      "order": "03c",
+      "type": "video",
+      "caption": "Chess piece turntable two",
+      "src": "media/02-image-to-object/02-portrait-chess-pieces/03c-chess-piece-turntable-two.mp4",
+      "width": 610,
+      "height": 720,
+      "durationSeconds": 12.25,
+      "bytes": 366382
+    },
+    {
+      "id": "portrait-chess-pieces-04",
+      "project": "portrait-chess-pieces",
+      "order": "04",
+      "type": "image",
+      "caption": "Printed portrait chess pieces",
+      "src": "media/02-image-to-object/02-portrait-chess-pieces/04-printed-portrait-chess-pieces.webp",
+      "thumbnail": "media/02-image-to-object/02-portrait-chess-pieces/04-printed-portrait-chess-pieces-thumb.webp",
+      "width": 2400,
+      "height": 1193,
+      "bytes": 125272
+    },
+    {
+      "id": "bunny-key-ring-01",
+      "project": "bunny-key-ring",
+      "order": "01",
+      "type": "image",
+      "caption": "Bunny reference and prompt",
+      "src": "media/02-image-to-object/03-bunny-key-ring/01-bunny-reference-and-prompt.webp",
+      "thumbnail": "media/02-image-to-object/03-bunny-key-ring/01-bunny-reference-and-prompt-thumb.webp",
+      "width": 2364,
+      "height": 1691,
+      "bytes": 166098
+    },
+    {
+      "id": "bunny-key-ring-02",
+      "project": "bunny-key-ring",
+      "order": "02",
+      "type": "image",
+      "caption": "Generated bunny 3D model",
+      "src": "media/02-image-to-object/03-bunny-key-ring/02-generated-bunny-3d-model.webp",
+      "thumbnail": "media/02-image-to-object/03-bunny-key-ring/02-generated-bunny-3d-model-thumb.webp",
+      "width": 2131,
+      "height": 1876,
+      "bytes": 166164
+    },
+    {
+      "id": "bunny-key-ring-03",
+      "project": "bunny-key-ring",
+      "order": "03",
+      "type": "image",
+      "caption": "Printed bunny key ring",
+      "src": "media/02-image-to-object/03-bunny-key-ring/03-printed-bunny-key-ring.webp",
+      "thumbnail": "media/02-image-to-object/03-bunny-key-ring/03-printed-bunny-key-ring-thumb.webp",
+      "width": 1800,
+      "height": 2400,
+      "bytes": 101256
+    },
+    {
+      "id": "bunny-key-ring-04",
+      "project": "bunny-key-ring",
+      "order": "04",
+      "type": "image",
+      "caption": "Key ring with bunny",
+      "src": "media/02-image-to-object/03-bunny-key-ring/04-key-ring-with-bunny.webp",
+      "thumbnail": "media/02-image-to-object/03-bunny-key-ring/04-key-ring-with-bunny-thumb.webp",
+      "width": 1424,
+      "height": 2304,
+      "bytes": 295086
+    },
+    {
+      "id": "ai-optimized-life-01",
+      "project": "ai-optimized-life",
+      "order": "01",
+      "type": "image",
+      "caption": "AI-optimized life still",
+      "src": "media/03-speculative-design/01-ai-optimized-life/01-ai-optimized-life-still.webp",
+      "thumbnail": "media/03-speculative-design/01-ai-optimized-life/01-ai-optimized-life-still-thumb.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 57894
+    },
+    {
+      "id": "ai-optimized-life-02",
+      "project": "ai-optimized-life",
+      "order": "02",
+      "type": "video",
+      "caption": "AI-optimized life film",
+      "src": "media/03-speculative-design/01-ai-optimized-life/02-ai-optimized-life-film.mp4",
+      "width": 1276,
+      "height": 720,
+      "durationSeconds": 121.6,
+      "bytes": 10412862
+    },
+    {
+      "id": "attention-and-boredom-01",
+      "project": "attention-and-boredom",
+      "order": "01",
+      "type": "image",
+      "caption": "Attention and boredom still",
+      "src": "media/03-speculative-design/02-attention-and-boredom/01-attention-and-boredom-still.webp",
+      "thumbnail": "media/03-speculative-design/02-attention-and-boredom/01-attention-and-boredom-still-thumb.webp",
+      "width": 1232,
+      "height": 928,
+      "bytes": 60216
+    },
+    {
+      "id": "attention-and-boredom-02",
+      "project": "attention-and-boredom",
+      "order": "02",
+      "type": "video",
+      "caption": "Attention and boredom film",
+      "src": "media/03-speculative-design/02-attention-and-boredom/02-attention-and-boredom-film.mp4",
+      "width": 1280,
+      "height": 720,
+      "durationSeconds": 120.81,
+      "bytes": 9585152
+    },
+    {
+      "id": "life-beyond-mandatory-work-01a",
+      "project": "life-beyond-mandatory-work",
+      "order": "01a",
+      "type": "image",
+      "caption": "Life beyond work still one",
+      "src": "media/03-speculative-design/03-life-beyond-mandatory-work/01a-life-beyond-work-still-one.webp",
+      "thumbnail": "media/03-speculative-design/03-life-beyond-mandatory-work/01a-life-beyond-work-still-one-thumb.webp",
+      "width": 1456,
+      "height": 816,
+      "bytes": 223322
+    },
+    {
+      "id": "life-beyond-mandatory-work-01b",
+      "project": "life-beyond-mandatory-work",
+      "order": "01b",
+      "type": "image",
+      "caption": "Life beyond work still two",
+      "src": "media/03-speculative-design/03-life-beyond-mandatory-work/01b-life-beyond-work-still-two.webp",
+      "thumbnail": "media/03-speculative-design/03-life-beyond-mandatory-work/01b-life-beyond-work-still-two-thumb.webp",
+      "width": 1456,
+      "height": 816,
+      "bytes": 203590
+    },
+    {
+      "id": "life-beyond-mandatory-work-02",
+      "project": "life-beyond-mandatory-work",
+      "order": "02",
+      "type": "video",
+      "caption": "Life beyond mandatory work film",
+      "src": "media/03-speculative-design/03-life-beyond-mandatory-work/02-life-beyond-mandatory-work-film.mp4",
+      "width": 1280,
+      "height": 720,
+      "durationSeconds": 130.05,
+      "bytes": 14553693
+    },
+    {
+      "id": "architecture-after-ai-failure-01",
+      "project": "architecture-after-ai-failure",
+      "order": "01",
+      "type": "image",
+      "caption": "Architecture after AI still",
+      "src": "media/03-speculative-design/04-architecture-after-ai-failure/01-architecture-after-ai-still.webp",
+      "thumbnail": "media/03-speculative-design/04-architecture-after-ai-failure/01-architecture-after-ai-still-thumb.webp",
+      "width": 1456,
+      "height": 816,
+      "bytes": 170956
+    },
+    {
+      "id": "architecture-after-ai-failure-02",
+      "project": "architecture-after-ai-failure",
+      "order": "02",
+      "type": "video",
+      "caption": "Architecture after AI film",
+      "src": "media/03-speculative-design/04-architecture-after-ai-failure/02-architecture-after-ai-film.mp4",
+      "width": 1280,
+      "height": 716,
+      "durationSeconds": 174.78,
+      "bytes": 23705403
+    },
+    {
+      "id": "vapor-cloud-infrastructure-01",
+      "project": "vapor-cloud-infrastructure",
+      "order": "01",
+      "type": "image",
+      "caption": "Vapor cloud infrastructure still",
+      "src": "media/03-speculative-design/05-vapor-cloud-infrastructure/01-vapor-cloud-infrastructure-still.webp",
+      "thumbnail": "media/03-speculative-design/05-vapor-cloud-infrastructure/01-vapor-cloud-infrastructure-still-thumb.webp",
+      "width": 2400,
+      "height": 1345,
+      "bytes": 221158
+    },
+    {
+      "id": "vapor-cloud-infrastructure-02",
+      "project": "vapor-cloud-infrastructure",
+      "order": "02",
+      "type": "video",
+      "caption": "Vapor cloud infrastructure film",
+      "src": "media/03-speculative-design/05-vapor-cloud-infrastructure/02-vapor-cloud-infrastructure-film.mp4",
+      "width": 1280,
+      "height": 718,
+      "durationSeconds": 174.1,
+      "bytes": 16693981
+    }
+  ]
+}

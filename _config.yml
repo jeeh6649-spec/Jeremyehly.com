@@ -1,0 +1,54 @@
+title: Jeremy Ehly
+description: "I'm a licensed architect, design educator, speaker, and consultant helping architecture firms and design schools use generative AI with creativity, judgment, and care."
+baseurl: ""
+url: "https://jeremyehly.com"
+lang: en-US
+
+author:
+  name: Jeremy Ehly
+  email: Jeremy.Ehly@colorado.edu
+  image: /_shared/brand/images/jeremy-ehly-headshot.webp
+  linkedin: https://www.linkedin.com/in/jeremyehly
+
+default_social_image: /media/home/ai-leadership-card.webp
+default_social_image_alt: Speculative architectural study representing Jeremy Ehly's work in design, education, and generative AI
+
+# Paste your GA4 Measurement ID (from analytics.google.com, format G-XXXXXXXXXX)
+# here once you have one. Leave blank to disable analytics entirely; the
+# include checks for a value before rendering anything.
+ga_measurement_id: "G-BGQFGZMNG2"
+
+# If you publish this at https://<username>.github.io/<repo-name>/ instead of
+# a custom domain, set baseurl to "/<repo-name>" (leading slash, no trailing
+# slash) and everything on the site will still resolve correctly, every link
+# in this project goes through Jekyll's relative_url filter for exactly this
+# reason. See README.md.
+
+markdown: kramdown
+
+# Jekyll excludes underscore-prefixed directories by default; _shared holds
+# brand images (headshot, etc.) referenced across pages and must be served.
+include:
+  - _shared
+
+exclude:
+  - README.md
+  - CLAUDE.md
+  - ONBOARDING.md
+  - Gemfile
+  - Gemfile.lock
+  - home.md
+  - site-content.json
+  - validate-content.mjs
+  - validate-seo.mjs
+  - SEO-GUIDE.md
+  - _shared/editorial
+  - about/content
+  - ai-leadership/content
+  - teaching/content
+  - teaching/evaluations
+  - teaching/courses/*/content
+  - work/content
+  - work/projects/*/content
+  - node_modules
+  - vendor

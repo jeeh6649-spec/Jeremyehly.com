@@ -1,0 +1,81 @@
+{% assign seo_title = page.seo_title | default: page.title | default: site.title %}
+{% if seo_title contains site.title %}
+  {% assign full_title = seo_title %}
+{% else %}
+  {% assign full_title = seo_title | append: ' | ' | append: site.title %}
+{% endif %}
+{% assign seo_description = page.description | default: site.description %}
+{% assign canonical_path = page.canonical_path | default: page.url %}
+{% assign canonical_url = canonical_path | absolute_url %}
+{% assign social_image_path = page.social_image | default: site.default_social_image %}
+{% assign social_image_url = social_image_path | absolute_url %}
+{% assign social_image_alt = page.social_image_alt | default: site.default_social_image_alt %}
+{% assign schema_type = page.schema_type | default: 'WebPage' %}
+{% assign site_url = '/' | absolute_url %}
+{% assign person_id = site_url | append: '#person' %}
+{% assign website_id = site_url | append: '#website' %}
+{% assign webpage_id = canonical_url | append: '#webpage' %}
+
+<title>{{ full_title | escape }}</title>
+<meta name="description" content="{{ seo_description | strip_html | normalize_whitespace | escape }}">
+<link rel="canonical" href="{{ canonical_url }}">
+{% if page.noindex %}<meta name="robots" content="noindex, nofollow">{% else %}<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">{% endif %}
+
+<meta property="og:locale" content="{{ site.lang | default: 'en-US' | replace: '-', '_' }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:title" content="{{ full_title | escape }}">
+<meta property="og:description" content="{{ seo_description | strip_html | normalize_whitespace | escape }}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:image" content="{{ social_image_url }}">
+<meta property="og:image:alt" content="{{ social_image_alt | escape }}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ full_title | escape }}">
+<meta name="twitter:description" content="{{ seo_description | strip_html | normalize_whitespace | escape }}">
+<meta name="twitter:image" content="{{ social_image_url }}">
+<meta name="twitter:image:alt" content="{{ social_image_alt | escape }}">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": {{ person_id | jsonify }},
+      "name": {{ site.author.name | jsonify }},
+      "url": {{ site_url | jsonify }},
+      "image": {{ site.author.image | absolute_url | jsonify }},
+      "email": {{ site.author.email | jsonify }},
+      "jobTitle": ["Licensed Architect", "Design Educator", "AI Speaker", "Consultant"],
+      "worksFor": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Colorado Boulder"
+      },
+      "sameAs": [{{ site.author.linkedin | jsonify }}]
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ website_id | jsonify }},
+      "url": {{ site_url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "publisher": { "@id": {{ person_id | jsonify }} }
+    },
+    {
+      "@type": {{ schema_type | jsonify }},
+      "@id": {{ webpage_id | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "name": {{ full_title | jsonify }},
+      "description": {{ seo_description | strip_html | normalize_whitespace | jsonify }},
+      "isPartOf": { "@id": {{ website_id | jsonify }} },
+      "about": { "@id": {{ person_id | jsonify }} },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": {{ social_image_url | jsonify }}
+      }{% if schema_type == 'ProfilePage' %},
+      "mainEntity": { "@id": {{ person_id | jsonify }} }{% endif %}
+    }
+  ]
+}
+</script>

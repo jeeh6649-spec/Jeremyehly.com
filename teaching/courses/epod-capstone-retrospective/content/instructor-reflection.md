@@ -1,0 +1,17 @@
+# Instructor Reflection
+
+*Working draft based on the course syllabus and selected work from 2016-2024. This piece will be revised after a reflective interview.*
+
+Capstone is one of the rare moments in a student's education when the question can become genuinely personal. After years of responding to briefs, they are asked to decide what deserves sustained attention and what kind of designer they want to become. I taught this course for nine years, and I never wanted that freedom to become vague. My role was to help students turn personal ambition into a project with clear stakes, disciplined progress, and a standard of completion they could defend.
+
+I often asked students to spend time learning to love the problem before committing to a solution. That meant researching beyond the surface, speaking with people who understood the issue through experience, identifying systems and constraints, and writing a problem statement that could guide difficult decisions later. The object mattered, but the reason for making it had to come first.
+
+Once a direction was established, the studio became a structure for accountability. Long projects can create the illusion of abundant time until the final weeks arrive. Milestones, desk critiques, peer reviews, mentor conversations, and repeated prototypes gave students ways to make progress visible. I tried to provide honest feedback without taking ownership away from them. A capstone succeeds when a student can absorb critique, make a decision, and understand why it is theirs.
+
+The range of work in this collection is one of the things I value most. It includes furniture, gardening systems, safety equipment, play, publications, packaging, wearable objects, and tools for creative work. Some projects are quiet and intimate; others are explicitly public or commercial. They do not share a visual style, and they should not. They share evidence of a student moving from an emerging concern to a designed proposition that can be tested, used, photographed, explained, and carried forward.
+
+Making remained central. Full-scale prototypes exposed questions that drawings and renderings could postpone: comfort, balance, tolerances, weight, assembly, durability, and the reality of another person's body. At the same time, I treated communication as another form of resolution. A strong project that cannot be explained clearly is not ready to create the impact its designer intends. Press materials, boards, process books, identities, images, and films helped students understand how design enters professional and public conversation.
+
+Looking across the years, I see my teaching moving toward a clearer balance between freedom and framework. Students needed room to pursue work that was unmistakably their own, but they also benefited from explicit phases, concrete deliverables, and a collective studio rhythm. The framework did not reduce independence. It gave independence enough structure to become productive.
+
+What I am proudest of is not that every project arrived at the same level or followed the same path. It is that students were asked to take themselves seriously as designers before graduation: to identify a meaningful opportunity, seek expertise, make repeatedly, respond to evidence, and present the result with confidence. Capstone gave them a place to practice authorship while still surrounded by people committed to helping the work become stronger.
