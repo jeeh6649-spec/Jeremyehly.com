@@ -21,11 +21,28 @@ extra_js: /assets/js/teaching-index.js
     </div>
   </div>
 
-  <section class="quote-block">
+  {% assign featured_ids = site.data.student_evaluation_quotes.featuredQuoteIds %}
+  {% assign all_courses = site.data.student_evaluation_quotes.courses %}
+  {% assign first_id = featured_ids | first %}
+  {% assign first_text = "" %}
+  {% assign first_attr = "" %}
+  {% for c in all_courses %}
+    {% for q in c.quotes %}
+      {% if q.id == first_id %}
+        {% assign first_text = q.text %}
+        {% assign first_attr = c.title | append: " | " | append: q.term | append: " course evaluation" %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  <section class="quote-block quote-block-single">
     <div class="wrap">
-      <div class="quote-eyebrow">Teaching Philosophy</div>
-      <div class="quote-static-text">"Love is a better teacher than a sense of duty."</div>
-      <div class="quote-static-attr">Albert Einstein</div>
+      <div class="quote-eyebrow">Student Voices</div>
+      <div class="quote-slide-text">&ldquo;{{ first_text | escape }}&rdquo;</div>
+      <div class="quote-slide-attr">{{ first_attr | escape }}</div>
+      <div class="quote-dots">
+        {% for fid in featured_ids %}<button class="quote-dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}" aria-label="Quote {{ forloop.index }}"></button>{% endfor %}
+      </div>
+      <script type="application/json" class="quote-data">[{% for fid in featured_ids %}{% assign qtext = "" %}{% assign qattr = "" %}{% for c in all_courses %}{% for q in c.quotes %}{% if q.id == fid %}{% assign qtext = q.text %}{% assign qattr = c.title | append: " | " | append: q.term | append: " course evaluation" %}{% endif %}{% endfor %}{% endfor %}{"text": {{ qtext | jsonify }}, "attr": {{ qattr | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
     </div>
   </section>
 
@@ -86,7 +103,7 @@ extra_js: /assets/js/teaching-index.js
         <div class="course-img"><img src="courses/urban-rewilding-studio/media/01-backyard-species-network/01-backyard-species-network-thumb.webp" alt="Urban Rewilding Studio, backyard species network" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
         <div class="course-tagrow">Foundation<span class="pipe">|</span>Fall 2025</div>
         <div class="course-title">Urban Rewilding Studio</div>
-        <div class="course-meta">ENVD 1120</div>
+        <div class="course-meta">ENVD 1120<span class="coordinator-badge">Coordinator</span></div>
         <div class="course-desc">A foundation studio introducing ecological design and site research through the lens of urban rewilding.</div>
       </a>
 
@@ -102,7 +119,7 @@ extra_js: /assets/js/teaching-index.js
         <div class="course-img"><img src="courses/luminaire-studio/media/01-owl/01-owl-finished-luminaire-thumb.webp" alt="Luminaire Studio, Owl luminaire" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
         <div class="course-tagrow">Foundation<span class="pipe">|</span>Fall 2024</div>
         <div class="course-title">Luminaire Studio</div>
-        <div class="course-meta">ENVD 1110</div>
+        <div class="course-meta">ENVD 1110<span class="coordinator-badge">Coordinator</span></div>
         <div class="course-desc">A foundation studio in material exploration and digital fabrication, centered on the design of a single luminous object.</div>
       </a>
 
@@ -118,7 +135,7 @@ extra_js: /assets/js/teaching-index.js
         <div class="course-img"><img src="courses/epop-retail-outlet/media/01-proposals/01-framed/01-framed-proposal-thumb.webp" alt="EPOP Retail Outlet, Framed proposal" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
         <div class="course-tagrow">Advanced / Options<span class="pipe">|</span>Fall 2019</div>
         <div class="course-title">EPOP Retail Outlet</div>
-        <div class="course-meta">EPOD 3100</div>
+        <div class="course-meta">EPOD 3100<span class="coordinator-badge">Coordinator</span></div>
         <div class="course-desc">An advanced studio in entrepreneurship and professional practice, designing and building a retail environment.</div>
       </a>
 
@@ -126,7 +143,7 @@ extra_js: /assets/js/teaching-index.js
         <div class="course-img"><img src="courses/studio-one-product-design/media/01-school-super-sidekick/01-school-super-sidekick-prototype-thumb.webp" alt="Studio I Environmental Product Design, School Super Sidekick prototype" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
         <div class="course-tagrow">Foundation<span class="pipe">|</span>2020 to 2024</div>
         <div class="course-title">Studio I | Environmental Product Design</div>
-        <div class="course-meta">ENVD 1010</div>
+        <div class="course-meta">ENVD 1010<span class="coordinator-badge">Coordinator</span></div>
         <div class="course-desc">A foundation studio in environmental product design.</div>
       </a>
 
@@ -141,27 +158,10 @@ extra_js: /assets/js/teaching-index.js
     </div>
   </div>
 
-  {% assign featured_ids = site.data.student_evaluation_quotes.featuredQuoteIds %}
-  {% assign all_courses = site.data.student_evaluation_quotes.courses %}
-  {% assign first_id = featured_ids | first %}
-  {% assign first_text = "" %}
-  {% assign first_attr = "" %}
-  {% for c in all_courses %}
-    {% for q in c.quotes %}
-      {% if q.id == first_id %}
-        {% assign first_text = q.text %}
-        {% assign first_attr = c.title | append: " | " | append: q.term | append: " course evaluation" %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-  <section class="quote-block quote-block-single">
+  <section class="quote-block">
     <div class="wrap">
-      <div class="quote-eyebrow">Student Voices</div>
-      <div class="quote-slide-text">&ldquo;{{ first_text | escape }}&rdquo;</div>
-      <div class="quote-slide-attr">{{ first_attr | escape }}</div>
-      <div class="quote-dots">
-        {% for fid in featured_ids %}<button class="quote-dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}" aria-label="Quote {{ forloop.index }}"></button>{% endfor %}
-      </div>
-      <script type="application/json" class="quote-data">[{% for fid in featured_ids %}{% assign qtext = "" %}{% assign qattr = "" %}{% for c in all_courses %}{% for q in c.quotes %}{% if q.id == fid %}{% assign qtext = q.text %}{% assign qattr = c.title | append: " | " | append: q.term | append: " course evaluation" %}{% endif %}{% endfor %}{% endfor %}{"text": {{ qtext | jsonify }}, "attr": {{ qattr | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
+      <div class="quote-eyebrow">Teaching Philosophy</div>
+      <div class="quote-static-text">"Love is a better teacher than a sense of duty."</div>
+      <div class="quote-static-attr">Albert Einstein</div>
     </div>
   </section>

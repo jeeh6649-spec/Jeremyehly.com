@@ -235,6 +235,10 @@ section.block { padding: 52px 0; border-top: 1px solid var(--lg); }
 .course-title { font-size: 17px; font-weight: 800; letter-spacing: -0.015em; margin-bottom: 3px; }
 .course-card.is-link:hover .course-title { text-decoration: underline; text-underline-offset: 3px; }
 .course-meta { font-size: 11.5px; font-weight: 300; color: var(--g); margin-bottom: 8px; }
+.coordinator-badge {
+  display: inline-block; font-size: 9.5px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--k); border: 1px solid var(--k); border-radius: 20px; padding: 2px 9px; margin-left: 8px; vertical-align: middle;
+}
 .course-desc { font-size: 13px; font-weight: 300; color: var(--b); }
 .course-status { font-size: 10.5px; font-weight: 300; color: var(--g); margin-top: 8px; letter-spacing: 0.02em; }
 
