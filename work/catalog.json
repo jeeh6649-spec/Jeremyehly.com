@@ -24,9 +24,11 @@
       "scale": "building-campus",
       "themes": ["craft and fabrication", "material expression", "experiential design"],
       "status": "Unbuilt",
+      "recognition": ["Winning invited competition entry", "2016 AIA Colorado Denver Chapter Merit Award for Unbuilt Architecture"],
       "publicationStatus": "published",
       "sourceFolders": ["Architectural Projects/01 Whiskey Still"],
-      "evidenceSources": ["Project Description.rtf", "Whiskey Still Final.pdf", "2016 professional portfolio, pages 18-23"],
+      "evidenceSources": ["Project Description.rtf", "Whiskey Still Final.pdf", "2016 professional portfolio, pages 18-23", "Arch 11 project page"],
+      "externalLinks": [{"label": "Arch 11 project page", "url": "https://www.arch11.com/project/whiskey-still"}],
       "editorialNote": "Jeremy confirmed on July 28, 2026 that the project is not confidential and may be included."
     },
     {
@@ -46,7 +48,7 @@
       "scale": "building",
       "themes": ["adaptive context", "daylighting", "material expression", "public realm", "craft and fabrication"],
       "status": "Complete",
-      "recognition": ["AIA Colorado Award of Excellence in Built Works"],
+      "recognition": ["2018 AIA Colorado Award of Excellence", "2018 AIA Colorado Notable in the North"],
       "publicationStatus": "published",
       "sourceFolders": ["Architectural Projects/08 909 Walnut Arch 11"],
       "evidenceSources": ["909.pdf", "Arch 11 project page", "Jeremy Ehly CV, 2026"],

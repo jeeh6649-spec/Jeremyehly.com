@@ -10,7 +10,7 @@
     "program": "Environmental Design",
     "brandStylesheet": "../brand/brand-tokens.css",
     "summary": "An architecture capstone exploring how museums might help people step away from digital distraction and reconnect through creative, social, multisensory experience.",
-    "mediaNote": "Selected anonymous student work presented in the instructor's curated project and page order.",
+    "mediaNote": "Selected anonymous student work presented in the instructor's curated project and page order. The available animated walkthrough is promoted in the project title and displayed first in its gallery.",
     "content": {
       "overview": "content/course-overview.md",
       "instructorReflection": "content/instructor-reflection.md"
@@ -39,7 +39,8 @@
       "title": "Museum of Analog Experiences",
       "content": "content/projects/03-museum-of-analog-experiences.md",
       "summary": "A civic atrium connects galleries, performance, making, food, and play within a daylight-filtering public facade.",
-      "heroAsset": "museum-of-analog-experiences-00"
+      "heroAsset": "museum-of-analog-experiences-00",
+      "videoAsset": "museum-of-analog-experiences-16"
     }
   ],
   "assets": [
@@ -790,6 +791,7 @@
       "order": "16",
       "type": "video",
       "caption": "Animated museum walkthrough",
+      "featured": true,
       "src": "media/03-museum-of-analog-experiences/16-animated-museum-walkthrough.mp4",
       "poster": "media/03-museum-of-analog-experiences/16-animated-museum-walkthrough-poster.webp",
       "width": 1280,

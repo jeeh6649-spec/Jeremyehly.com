@@ -7,6 +7,7 @@
 **Size:** 69,500 SF building | 130,000 SF site
 **Materials:** Heavy timber, corrugated metal, weathered snow fencing, native stone
 **Status:** Unbuilt
+**Recognition:** Winning invited competition entry | 2016 AIA Colorado Denver Chapter Merit Award for Unbuilt Architecture
 **Tags:** Architecture | Speculative
 
 The history, process, and craft of spirit making inform the proposed expansion of a local whiskey distillery. Architectural and material expressions reconnect the distillery to its Colorado agrarian roots and create an authentic experience for visitors.

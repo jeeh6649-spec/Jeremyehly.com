@@ -8,7 +8,7 @@
 **Size:** 14,475 SF building | 6,300 SF site  
 **Construction Cost:** $3.4 million  
 **Status:** Complete  
-**Recognition:** AIA Colorado Award of Excellence in Built Works  
+**Recognition:** 2018 AIA Colorado Award of Excellence | 2018 AIA Colorado Notable in the North
 **Tags:** Architecture | Built Work
 
 I worked as a designer on the Arch 11 team that designed 909 Walnut and oversaw its construction. The mixed-use building occupies one of the last infill sites in historic downtown Boulder, with a restaurant at street level and two floors of speculative offices above. A tight zoning envelope, required public open space, daylighting goals, and the city's historic review process made constraint central to the design.
@@ -29,4 +29,3 @@ Daylight extends beyond the perimeter through a tall stair and linear light well
 8. Facade and program layers
 9. Street presence
 10. Facade development
-

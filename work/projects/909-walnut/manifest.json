@@ -10,7 +10,10 @@
   "firm": "Arch 11",
   "role": ["Designer", "Project Team", "Construction Oversight"],
   "status": "Complete",
-  "recognition": ["AIA Colorado Award of Excellence in Built Works"],
+  "recognition": [
+    "2018 AIA Colorado Award of Excellence",
+    "2018 AIA Colorado Notable in the North"
+  ],
   "externalLinks": [
     {"label": "Arch 11 project page", "url": "https://www.arch11.com/project/909-walnut"}
   ],

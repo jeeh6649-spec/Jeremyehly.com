@@ -82,7 +82,8 @@
       "year": 2020,
       "yearStatus": "metadata-derived",
       "content": "content/projects/05-studiio-backpack.md",
-      "heroAsset": "studiio-backpack-01"
+      "heroAsset": "studiio-backpack-01",
+      "videoAsset": "studiio-backpack-05"
     },
     {
       "id": "jumble",
@@ -102,7 +103,8 @@
       "year": 2021,
       "yearStatus": "metadata-derived",
       "content": "content/projects/07-beat-box.md",
-      "heroAsset": "beat-box-01"
+      "heroAsset": "beat-box-01",
+      "videoAsset": "beat-box-05"
     },
     {
       "id": "phoenix-filter",
@@ -112,7 +114,8 @@
       "year": 2021,
       "yearStatus": "metadata-derived",
       "content": "content/projects/08-phoenix-filter.md",
-      "heroAsset": "phoenix-filter-01"
+      "heroAsset": "phoenix-filter-01",
+      "videoAsset": "phoenix-filter-05"
     },
     {
       "id": "moments-fidget-jewelry",
@@ -122,7 +125,8 @@
       "year": 2023,
       "yearStatus": "metadata-derived",
       "content": "content/projects/09-moments-fidget-jewelry.md",
-      "heroAsset": "moments-fidget-jewelry-01"
+      "heroAsset": "moments-fidget-jewelry-01",
+      "videoAsset": "moments-fidget-jewelry-05"
     },
     {
       "id": "rescue-light",
@@ -162,7 +166,8 @@
       "year": 2022,
       "yearStatus": "metadata-derived",
       "content": "content/projects/13-iorek-seat.md",
-      "heroAsset": "iorek-seat-01"
+      "heroAsset": "iorek-seat-01",
+      "videoAsset": "iorek-seat-05"
     },
     {
       "id": "entendre-chair",
@@ -172,7 +177,8 @@
       "year": 2023,
       "yearStatus": "metadata-derived",
       "content": "content/projects/14-entendre-chair.md",
-      "heroAsset": "entendre-chair-01"
+      "heroAsset": "entendre-chair-01",
+      "videoAsset": "entendre-chair-04"
     },
     {
       "id": "moza",
@@ -182,7 +188,9 @@
       "year": 2020,
       "yearStatus": "metadata-derived",
       "content": "content/projects/15-moza.md",
-      "heroAsset": "moza-01"
+      "heroAsset": "moza-01",
+      "videoAsset": "moza-05",
+      "coInstructor": "Melissa Felderman"
     }
   ],
   "assets": [
@@ -459,7 +467,7 @@
       "type": "video",
       "role": "project-film",
       "caption": "STUDIIO Backpack project film",
-      "featured": false,
+      "featured": true,
       "src": "media/products/studiio-backpack/05-studiio-backpack-project-film.mp4",
       "poster": "media/products/studiio-backpack/05-studiio-backpack-project-film-poster.webp",
       "width": 1280,
@@ -586,7 +594,7 @@
       "type": "video",
       "role": "project-film",
       "caption": "BEAT BOX project film",
-      "featured": false,
+      "featured": true,
       "src": "media/products/beat-box/05-beat-box-project-film.mp4",
       "poster": "media/products/beat-box/05-beat-box-project-film-poster.webp",
       "width": 1280,
@@ -657,7 +665,7 @@
       "type": "video",
       "role": "project-film",
       "caption": "Phoenix Filter project film",
-      "featured": false,
+      "featured": true,
       "src": "media/products/phoenix-filter/05-phoenix-filter-project-film.mp4",
       "poster": "media/products/phoenix-filter/05-phoenix-filter-project-film-poster.webp",
       "width": 1280,
@@ -728,7 +736,7 @@
       "type": "video",
       "role": "project-film",
       "caption": "Moments jewelry project film",
-      "featured": false,
+      "featured": true,
       "src": "media/products/moments-fidget-jewelry/05-moments-jewelry-project-film.mp4",
       "poster": "media/products/moments-fidget-jewelry/05-moments-jewelry-project-film-poster.webp",
       "width": 406,
@@ -967,7 +975,7 @@
       "type": "video",
       "role": "project-film",
       "caption": "IOREK seating project film",
-      "featured": false,
+      "featured": true,
       "src": "media/furniture/iorek-seat/05-iorek-seating-project-film.mp4",
       "poster": "media/furniture/iorek-seat/05-iorek-seating-project-film-poster.webp",
       "width": 1280,
@@ -1024,7 +1032,7 @@
       "type": "video",
       "role": "project-film",
       "caption": "Entendre Chair project film",
-      "featured": false,
+      "featured": true,
       "src": "media/furniture/entendre-chair/04-entendre-chair-project-film.mp4",
       "poster": "media/furniture/entendre-chair/04-entendre-chair-project-film-poster.webp",
       "width": 1280,
@@ -1095,7 +1103,7 @@
       "type": "video",
       "role": "project-film",
       "caption": "Moza project film",
-      "featured": false,
+      "featured": true,
       "src": "media/furniture/moza/05-moza-project-film.mp4",
       "poster": "media/furniture/moza/05-moza-project-film-poster.webp",
       "width": 1280,
