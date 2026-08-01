@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0",
+  "updated": "2026-07-31",
+  "id": "909-walnut",
+  "title": "909 Walnut",
+  "discipline": "Architecture",
+  "mode": "Built Work",
+  "year": 2015,
+  "location": "Boulder, Colorado",
+  "firm": "Arch 11",
+  "role": ["Designer", "Project Team", "Construction Oversight"],
+  "status": "Complete",
+  "recognition": ["AIA Colorado Award of Excellence in Built Works"],
+  "externalLinks": [
+    {"label": "Arch 11 project page", "url": "https://www.arch11.com/project/909-walnut"}
+  ],
+  "assets": [
+    {"order": 1, "src": "media/01-evening-facade.webp", "caption": "Evening facade", "alt": "909 Walnut mixed-use facade illuminated at dusk", "featured": true},
+    {"order": 2, "src": "media/02-sidewalk-and-terracotta-screen.webp", "caption": "Walnut Street facade and terracotta screen", "alt": "Terracotta sunscreen and restaurant frontage along Walnut Street", "featured": true},
+    {"order": 3, "src": "media/03-daylit-stair.webp", "caption": "Daylit stair", "alt": "Wood stair illuminated by the linear light well", "featured": true},
+    {"order": 4, "src": "media/04-stair-light-well.webp", "caption": "Stair light well", "alt": "Vertical view through the daylit stair and light well", "featured": true},
+    {"order": 5, "src": "media/05-stair-and-office.webp", "caption": "Stair and office relationship", "alt": "Open stair connecting office levels at 909 Walnut", "featured": true},
+    {"order": 6, "src": "media/06-project-facts.webp", "caption": "Project facts", "alt": "909 Walnut project facts and scope", "featured": false},
+    {"order": 7, "src": "media/07-design-narrative.webp", "caption": "Design narrative", "alt": "Design narrative describing creativity within Boulder's regulatory limits", "featured": false},
+    {"order": 8, "src": "media/08-site-context.webp", "caption": "Site and historic context", "alt": "Walnut Street elevations and downtown Boulder site context", "featured": true},
+    {"order": 9, "src": "media/09-zoning-constraints.webp", "caption": "Zoning constraints", "alt": "Zoning envelope, height limits, setbacks, and program massing", "featured": true},
+    {"order": 10, "src": "media/10-facade-layers.webp", "caption": "Facade and program layers", "alt": "Section and axonometric showing terracotta screen, structure, glazing, and public space", "featured": true},
+    {"order": 11, "src": "media/11-street-presence.webp", "caption": "Street presence", "alt": "Built Walnut Street facade paired with an architectural section", "featured": true},
+    {"order": 12, "src": "media/12-lobby-and-daylight.webp", "caption": "Lobby and daylight", "alt": "Lobby rendering and photograph showing daylight at the central stair", "featured": true},
+    {"order": 13, "src": "media/13-lobby-light-well.webp", "caption": "Lobby light well", "alt": "Lobby and light-well photographs showing material and daylight details", "featured": true},
+    {"order": 14, "src": "media/14-stair-and-offices.webp", "caption": "Stair and offices", "alt": "Stair, expanded landings, and glazed office spaces", "featured": true},
+    {"order": 15, "src": "media/15-facade-development.webp", "caption": "Facade development", "alt": "Facade sketches and completed elevation showing the terracotta screen", "featured": true},
+    {"order": 16, "src": "media/16-daylight-facade-board.webp", "caption": "Daylight facade", "alt": "Full daylight view of the completed 909 Walnut facade", "featured": true},
+    {"order": 17, "src": "media/17-evening-facade-board.webp", "caption": "Evening facade", "alt": "Full evening view of the completed 909 Walnut facade", "featured": true}
+  ]
+}

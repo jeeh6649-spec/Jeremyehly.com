@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29",
+  "updated": "2026-07-31",
   "status": "complete",
   "readyProjects": [
     "restaurant-projects-denver",
@@ -9,7 +9,10 @@
     "jeddah-souk-community",
     "bologna-train-station",
     "chengdu-living-bridge",
-    "chengdu-water-city-masterplan"
+    "chengdu-water-city-masterplan",
+    "909-walnut",
+    "milwaukee-limnology-center",
+    "minnesota-orchestra-redesign"
   ],
   "queue": []
 }

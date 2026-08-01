@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-29",
-  "status": "eight-work-entries-confirmed",
+  "updated": "2026-07-31",
+  "status": "eleven-work-entries-confirmed",
   "publicTaxonomy": {
     "discipline": ["Architecture", "Landscape Architecture", "Product Design", "Graphic Design"],
     "mode": ["Built Work", "Speculative"],
@@ -28,6 +28,30 @@
       "sourceFolders": ["Architectural Projects/01 Whiskey Still"],
       "evidenceSources": ["Project Description.rtf", "Whiskey Still Final.pdf", "2016 professional portfolio, pages 18-23"],
       "editorialNote": "Jeremy confirmed on July 28, 2026 that the project is not confidential and may be included."
+    },
+    {
+      "id": "909-walnut",
+      "title": "909 Walnut",
+      "discipline": "Architecture",
+      "mode": "Built Work",
+      "aiCollaboration": false,
+      "yearStart": 2015,
+      "yearEnd": 2015,
+      "location": "Boulder, Colorado",
+      "firm": "Arch 11",
+      "collaborators": ["Arch 11 project team; individual team members are not identified in the current project source"],
+      "role": ["Designer", "Project Team", "Construction Oversight"],
+      "roleSummary": "Worked as a designer on the Arch 11 project team that designed the building and oversaw its construction.",
+      "projectType": ["Mixed-use", "Commercial", "Office", "Retail", "Urban Infill"],
+      "scale": "building",
+      "themes": ["adaptive context", "daylighting", "material expression", "public realm", "craft and fabrication"],
+      "status": "Complete",
+      "recognition": ["AIA Colorado Award of Excellence in Built Works"],
+      "publicationStatus": "published",
+      "sourceFolders": ["Architectural Projects/08 909 Walnut Arch 11"],
+      "evidenceSources": ["909.pdf", "Arch 11 project page", "Jeremy Ehly CV, 2026"],
+      "externalLinks": [{"label": "Arch 11 project page", "url": "https://www.arch11.com/project/909-walnut"}],
+      "editorialNote": "The current CV documents Jeremy's role as a designer on the project team and his participation through construction. The source does not identify individual collaborators, so credit remains at the firm-team level."
     },
     {
       "id": "jeddah-souk-community",
@@ -190,6 +214,57 @@
       "editorialNote": "Always identify this as Jeremy's student work at IIT. It belongs in Work as a formative speculative project, not as professional practice."
     },
     {
+      "id": "milwaukee-limnology-center",
+      "title": "Milwaukee Limnology Center",
+      "aliases": ["Milwaukee Limnology Institute"],
+      "collection": "work",
+      "academicContext": "Jeremy Ehly student work at Illinois Institute of Technology",
+      "discipline": "Landscape Architecture",
+      "disciplineSecondary": "Architecture",
+      "disciplineConfidence": "confirmed-dual",
+      "mode": "Speculative",
+      "aiCollaboration": false,
+      "yearStart": 2007,
+      "yearEnd": 2007,
+      "location": "Milwaukee, Wisconsin",
+      "firm": "Illinois Institute of Technology",
+      "collaborators": ["Individual academic student project; no collaborators"],
+      "instructor": "Professor Thomas Oslund",
+      "role": ["Student Designer"],
+      "projectType": ["Academic", "Research Institute", "Brownfield Remediation", "Landscape Infrastructure"],
+      "scale": "site",
+      "themes": ["ecological systems", "water systems", "remediation", "public realm", "research-led design"],
+      "status": "Academic student project",
+      "publicationStatus": "published",
+      "sourceFolders": ["Architectural Projects/09 Milwaukee Limnology Center"],
+      "evidenceSources": ["Milwaukee Limnology Institute for Web.pdf", "2008 work samples, pages 10-17"],
+      "editorialNote": "Always identify this as Jeremy's individual IIT student work. The project intentionally spans landscape architecture and architecture; Thomas Oslund is credited as instructor."
+    },
+    {
+      "id": "minnesota-orchestra-redesign",
+      "title": "Minnesota Orchestra Redesign",
+      "aliases": ["Minnesota Orchestra Hall Redevelopment"],
+      "collection": "work",
+      "academicContext": "Jeremy Ehly student work at Illinois Institute of Technology",
+      "discipline": "Architecture",
+      "mode": "Speculative",
+      "aiCollaboration": false,
+      "yearStart": 2007,
+      "yearEnd": 2007,
+      "location": "Minneapolis, Minnesota",
+      "firm": "Illinois Institute of Technology",
+      "collaborators": ["Individual academic student project; no collaborators documented"],
+      "role": ["Student Designer"],
+      "projectType": ["Academic", "Cultural", "Civic", "Adaptive Reuse", "Public Space"],
+      "scale": "building-site",
+      "themes": ["public realm", "adaptive reuse", "media facade", "experiential design", "visual communication"],
+      "status": "Academic student project",
+      "publicationStatus": "published",
+      "sourceFolders": ["Architectural Projects/10 Minnesota Orchestra Hall Rennovation"],
+      "evidenceSources": ["Minnesota_Orchestra_Redesign_Jeremy_Ehly_for_web.pdf"],
+      "editorialNote": "Always identify this as Jeremy's individual student work. No instructor or collaborator is identified in the current source folder."
+    },
+    {
       "id": "ai-urban-futures-studies",
       "title": "Personal AI Design Studies",
       "collection": "ai-leadership",
@@ -213,7 +288,6 @@
     }
   ],
   "portfolioOnlyCandidates": [
-    {"title": "Sub-Zero / Wolf Showroom", "suggestedDiscipline": "Architecture", "suggestedMode": "Built Work", "year": 2015, "firm": "Arch 11", "evidence": "2016 professional portfolio, pages 9-12"},
-    {"title": "Milwaukee Limnology Center", "suggestedDiscipline": "Landscape Architecture", "suggestedMode": "Speculative", "year": 2007, "firm": "IIT student work", "evidence": "2008 work samples, pages 10-17"}
+    {"title": "Sub-Zero / Wolf Showroom", "suggestedDiscipline": "Architecture", "suggestedMode": "Built Work", "year": 2015, "firm": "Arch 11", "evidence": "2016 professional portfolio, pages 9-12"}
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0",
+  "updated": "2026-07-31",
+  "id": "minnesota-orchestra-redesign",
+  "title": "Minnesota Orchestra Redesign",
+  "aliases": ["Minnesota Orchestra Hall Redevelopment"],
+  "discipline": "Architecture",
+  "mode": "Speculative",
+  "year": 2007,
+  "location": "Minneapolis, Minnesota",
+  "academicContext": "Illinois Institute of Technology",
+  "role": ["Student Designer"],
+  "status": "Academic student project",
+  "assets": [
+    {"order": 1, "src": "media/01-activated-orchestra-hall-hero.webp", "caption": "Activated orchestra hall and plaza", "alt": "Minnesota Orchestra Hall wrapped in a translucent media facade above Peavey Plaza", "featured": true},
+    {"order": 2, "src": "media/02-project-approach.webp", "caption": "Existing conditions and design response", "alt": "Project goals, site assessment, and transformation of the existing hall", "featured": true},
+    {"order": 3, "src": "media/03-site-layout.webp", "caption": "Site layout", "alt": "Aerial site model connecting Orchestra Hall to Peavey Plaza", "featured": true},
+    {"order": 4, "src": "media/04-led-media-skin.webp", "caption": "Programmable LED media skin", "alt": "Studies for quiet, pre-show, promotion, sound, and performance facade modes", "featured": true},
+    {"order": 5, "src": "media/05-program-plan.webp", "caption": "Program plan", "alt": "Plan identifying entrances, ticketing, lobby, cafe, education, retail, and plaza programs", "featured": true},
+    {"order": 6, "src": "media/06-peavey-plaza.webp", "caption": "Peavey Plaza landscape", "alt": "Redesigned Peavey Plaza with planted planes, water, paths, and seating", "featured": true},
+    {"order": 7, "src": "media/07-activated-facade-and-plaza.webp", "caption": "Facade and plaza relationship", "alt": "Sound waveform displayed across the hall above the redesigned public plaza", "featured": true}
+  ]
+}

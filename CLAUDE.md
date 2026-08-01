@@ -69,9 +69,7 @@ All defined once in `assets/css/site.css`, wired once in `assets/js/site.js` (gu
 
 ## Known gaps / pending work
 
-+ AI Leadership overview page not yet built (`ai-leadership/`)
-+ 3 Work project pages not yet built (outside-in, restaurant-projects-denver, brilliant-balconies) (`work/`)
-+ Homepage (`index.html` at repo root) not yet wired to real content
++ The Work index contains eleven published project pages. `work/catalog.json` is the canonical project inventory, and each newly prepared project may include a machine-readable `manifest.json` beside its page and media.
 + `_shared/brand/brand-tokens.css` and `brand-assets.json` are leftover scaffolding from an early planning pass using different variable names than what's actually used in `site.css`. Safe to delete once confirmed nothing references them.
 
 ## Verification

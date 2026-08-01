@@ -71,4 +71,4 @@ Do not commit private evidence documents, residential addresses, phone numbers, 
 
 ## Content status
 
-Teaching is fully built (About, Teaching index, and all 4 course detail pages). AI Leadership overview and the Work section (3 project pages) are still in production; see `work/catalog.json` and `work/media-queue.json` for what remains queued there. The homepage (`index.html` at the repository root) has not yet been wired to real content.
+The publication layer includes the homepage, About, AI Leadership, Teaching and its course pages, and eleven published Work project pages. See `work/catalog.json` for canonical project metadata and `work/media-queue.json` for production status.
