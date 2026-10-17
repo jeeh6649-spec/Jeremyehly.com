@@ -1,12 +1,12 @@
 /* ==========================================================================
-   Teaching index page only: progression-bar filter + Student Voices slider.
+   Teaching index page only: CV-aligned category filter + Student Voices slider.
    Loaded in addition to site.js, which handles the Read More toggle shared
    with every other page.
    ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', function () {
 
-  /* ===== progression bar doubles as the level filter ===== */
+  /* ===== category ribbon aligned with the CV's teaching taxonomy ===== */
   var segs = document.querySelectorAll('#progRow .prog-seg');
   var cards = document.querySelectorAll('#courseGrid .course-card');
   var countEl = document.getElementById('filterCount');
@@ -15,10 +15,10 @@ document.addEventListener('DOMContentLoaded', function () {
     var total = cards.length;
     var labels = {
       all: 'all ' + total + ' courses',
-      foundation: 'Foundation',
-      advanced: 'Advanced / Options',
-      capstone: 'Capstone / Thesis',
-      seminar: 'Seminar / Special Topics'
+      studios: 'Studios',
+      'design-build': 'Design-Build',
+      seminars: 'Seminars',
+      'emerging-technology': 'Emerging Technology + Digital Practice'
     };
 
     function applyFilter(filter) {

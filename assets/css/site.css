@@ -37,6 +37,7 @@ body {
   font-family: 'Gilroy', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 8vw; }
 @media (max-width: 1279px) { .wrap { padding: 0 6vw; } }
@@ -207,6 +208,8 @@ section.block { padding: 52px 0; border-top: 1px solid var(--lg); }
 /* == inline text link inside prose (e.g. About's Lead Statement, course intros) == */
 .inline-link { color: inherit; font-weight: 800; text-decoration: none; border-bottom: 1px solid var(--k); padding-bottom: 1px; }
 .inline-link:hover { color: var(--g); border-bottom-color: var(--g); }
+.page-subtitle a.inline-link[href*="colorado.edu"] { font-weight: 300; }
+.intro-more .inline-link { font: inherit; border-bottom-color: var(--g); }
 
 /* == course-index progression bar, doubles as the level filter == */
 .prog-row { display: flex; margin: 40px 0 4px; border-top: 1px solid var(--lg); padding-top: 32px; cursor: pointer; }
@@ -215,6 +218,11 @@ section.block { padding: 52px 0; border-top: 1px solid var(--lg); }
 .prog-seg-label { font-size: 11px; font-weight: 800; letter-spacing: 0.03em; color: var(--g); transition: color 0.2s ease; }
 .prog-seg.active .prog-seg-label { color: var(--k); }
 .prog-seg-sub { font-size: 10px; font-weight: 300; color: var(--g); margin-top: 2px; }
+@media (max-width: 700px) {
+  .prog-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 0; }
+  .prog-seg { min-width: 0; padding: 10px 8px 0; }
+  .prog-seg:first-child { grid-column: 1 / -1; }
+}
 .filter-count { font-size: 12px; font-weight: 300; color: var(--g); margin: 28px 0 30px; }
 
 /* == course-index grid, image-forward == */
@@ -328,7 +336,10 @@ section.block { padding: 52px 0; border-top: 1px solid var(--lg); }
 /* == AI Leadership: workshop lecture hero photo == */
 .lecture-hero { margin: 0 -8vw 12px; }
 .lecture-hero img { width: 100%; aspect-ratio: 1536/683; object-fit: cover; display: block; }
-@media (max-width: 700px) { .lecture-hero img { aspect-ratio: 16/9; } }
+@media (max-width: 700px) {
+  .lecture-hero { margin-left: 0; margin-right: 0; }
+  .lecture-hero img { aspect-ratio: 16/9; }
+}
 
 /* == hero slideshow, strongest image per project, click through to the project below == */
 .hero-slideshow { position: relative; margin: 0 -8vw 12px; }
@@ -379,9 +390,9 @@ section.block { padding: 52px 0; border-top: 1px solid var(--lg); }
 @media (max-width: 700px) { .lightbox-nav { width: 48px; height: 48px; font-size: 26px; } }
 
 /* == full-bleed white quote strip == */
-.quote-block { background: var(--white); margin: 0 -8vw; }
+.quote-block { background: var(--white); margin: 0; }
 .quote-block .wrap { padding: 48px 8vw; max-width: var(--maxw); }
-.quote-block.quote-block-single { margin: 0 -8vw; }
+.quote-block.quote-block-single { margin: 0; }
 .quote-eyebrow {
   font-size: 11px; font-weight: 300; color: var(--g);
   letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 18px;

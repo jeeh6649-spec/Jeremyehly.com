@@ -2,7 +2,7 @@
 
 **Role:** Design, 3D Modeling, Rendering
 **Firm:** RNL
-**Collaborators:** Michael Brendle, Tom Wuertz, Brita Gill, Joanna W. (surname not documented)
+**Collaborators:** Michael Brendle, Tom Wuertz, Brita Gill, Joanna W.
 **Location:** Jeddah, Saudi Arabia
 **Year:** 2012
 **Status:** Unbuilt

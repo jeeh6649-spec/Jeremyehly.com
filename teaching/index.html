@@ -14,21 +14,126 @@ extra_js: /assets/js/teaching-index.js
       <h1 class="page-title page-title--hub">Studios &amp; Seminars</h1>
       <div class="intro-statement">I believe powerful design education unites rigorous thinking with the discipline of actually making things.</div>
       <div class="intro-more" id="introMore">
-        <p>Across more than fifteen years of teaching at the <a class="inline-link" href="https://www.colorado.edu/cmdi/envd" target="_blank" rel="noopener">University of Colorado Boulder</a>, I've watched students learn why a project matters, work through iteration and failure, build confidence in their own judgment, and carry ideas into physical and public consequence.</p>
+        <p>The students drawn to <a class="inline-link" href="https://www.colorado.edu/cmdi/envd" target="_blank" rel="noopener">Environmental Design at CU Boulder</a> care deeply about the world they are inheriting and want to help change it for the better. I teach because I want to help them give that concern purposeful form through the products, buildings, landscapes, and communities they design and make.</p>
+        <p>Across more than fifteen years in the classroom, I've watched students learn why a project matters, work through iteration and failure, build confidence in their own judgment, and carry ideas into physical and public consequence.</p>
         <p>My teaching spans foundational studios, environmental product design, architecture and product capstones, design-build, visual communication, theory and ethics, ecological design, digital modeling, and generative AI.</p>
+        <p>For those who want a fuller account of how this approach developed, my lecture <a class="inline-link" href="https://youtu.be/Qd3bFQmQ4xU?si=6pVXHJULD7qANavV" target="_blank" rel="noopener">Taking It to 11: 11 Years of Teaching Design</a> reflects on the projects, questions, experiments, and students that have shaped my teaching practice.</p>
       </div>
       <button class="read-more-btn" id="readMoreBtn">Read More <span class="arrow">&darr;</span></button>
     </div>
   </div>
 
-  <section class="block">
-    <div class="wrap">
-      <div class="block-eyebrow">Lecture</div>
-      <div class="block-title">Taking It to 11</div>
-      <div class="block-intro">In this lecture, I look back across eleven years of teaching design and the questions, projects, and students that continue to shape my practice as an educator.</div>
-      <a class="external-link" href="https://youtu.be/Qd3bFQmQ4xU?si=6pVXHJULD7qANavV" target="_blank" rel="noopener">Watch 11 Years of Teaching Design on YouTube <span aria-hidden="true">&nearr;</span></a>
+  <div class="wrap">
+    <div class="prog-row" id="progRow">
+      <div class="prog-seg active" data-level="all"><div class="prog-seg-label">ALL COURSES</div><div class="prog-seg-sub">12 selected</div></div>
+      <div class="prog-seg" data-level="studios"><div class="prog-seg-label">STUDIOS</div><div class="prog-seg-sub">foundation to capstone</div></div>
+      <div class="prog-seg" data-level="design-build"><div class="prog-seg-label">DESIGN-BUILD</div><div class="prog-seg-sub">community praxis</div></div>
+      <div class="prog-seg" data-level="seminars"><div class="prog-seg-label">SEMINARS</div><div class="prog-seg-sub">theory + ethics</div></div>
+      <div class="prog-seg" data-level="emerging-technology"><div class="prog-seg-label">EMERGING TECH</div><div class="prog-seg-sub">digital practice</div></div>
     </div>
-  </section>
+
+    <div class="filter-count" id="filterCount">Showing all 12 courses</div>
+
+    <div class="course-grid" id="courseGrid">
+
+      <a class="course-card is-link" href="courses/generative-design-with-ai/" data-level="emerging-technology" data-ai="true">
+        <div class="course-img"><img src="courses/generative-design-with-ai/media/01-control-geometry/01-multistory-building/05-refined-multistory-building-thumb.webp" alt="Generative Design with AI student work" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
+        <div class="course-tagrow">Emerging Technology<span class="pipe">|</span>Spring 2026<span class="pipe">|</span><span class="ai-tag">AI Collaboration</span></div>
+        <div class="course-title">Generative Design with AI</div>
+        <div class="course-meta">ENVD 4365-002</div>
+        <div class="course-desc">CU Boulder's first generative AI design course, framing AI as a creative collaborator while foregrounding human authorship and ethical agency.</div>
+      </a>
+
+      <a class="course-card is-link" href="courses/design-build-studios/" data-level="design-build">
+        <div class="course-img"><img src="courses/design-build-studios/media/01-luminous-ticket-centers/04-completed-luminous-exterior-thumb.webp" alt="Design-Build Studios, completed luminous ticket center" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
+        <div class="course-tagrow">Advanced / Options<span class="pipe">|</span>Studio<span class="pipe">|</span>Design-Build</div>
+        <div class="course-title">Design-Build Studios</div>
+        <div class="course-meta">ENVD 3300 &nbsp;|&nbsp; Three projects, 2017 to 2019</div>
+        <div class="course-desc">Three community design-build partnerships, including work with Denver Botanic Gardens and the Northeast Denver Housing Center, carried from concept through construction.</div>
+      </a>
+
+      <a class="course-card is-link" href="courses/iceland-slow-sauna-competition/" data-level="studios">
+        <div class="course-img"><img src="courses/iceland-slow-sauna-competition/media/01-dvelja-to-dwell/01-volcanic-landscape-arrival-thumb.webp" alt="Iceland Slow Sauna Competition, volcanic landscape arrival" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
+        <div class="course-tagrow">Capstone / Thesis<span class="pipe">|</span>Spring 2026</div>
+        <div class="course-title">Iceland Slow Sauna Competition</div>
+        <div class="course-meta">ARCH 4100-11</div>
+        <div class="course-desc">A capstone thesis studio researching ritual, light, and material response to the Icelandic landscape through four sauna and bathing proposals.</div>
+      </a>
+
+      <a class="course-card is-link" href="courses/museum-of-analog-experience/" data-level="studios">
+        <div class="course-img"><img src="courses/museum-of-analog-experience/media/03-museum-of-analog-experiences/00-screened-museum-facade-thumb.webp" alt="Museum of Analog Experience, screened facade" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
+        <div class="course-tagrow">Capstone / Thesis<span class="pipe">|</span>Spring 2025</div>
+        <div class="course-title">Museum of Analog Experience</div>
+        <div class="course-meta">ARCH 4100-11</div>
+        <div class="course-desc">A capstone thesis studio imagining museums built around slowness, craft, and analog experience in a digital age.</div>
+      </a>
+
+      <a class="course-card is-link" href="courses/epod-capstone-retrospective/" data-level="studios">
+        <div class="course-img"><img src="courses/epod-capstone-retrospective/media/furniture/moza/04-moza-exploded-assembly-thumb.webp" alt="EPOD Capstone Studio, Moza stool exploded assembly" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
+        <div class="course-tagrow">Capstone / Thesis<span class="pipe">|</span>2016 to 2024</div>
+        <div class="course-title">EPOD Capstone Studio</div>
+        <div class="course-meta">EPOD 4100</div>
+        <div class="course-desc">Environmental Product Design capstone studio spanning entrepreneurship, professional practice, and independent thesis research.</div>
+      </a>
+
+      <a class="course-card is-link" href="courses/urban-rewilding-studio/" data-level="studios">
+        <div class="course-img"><img src="courses/urban-rewilding-studio/media/01-backyard-species-network/01-backyard-species-network-thumb.webp" alt="Urban Rewilding Studio, backyard species network" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
+        <div class="course-tagrow">Foundation<span class="pipe">|</span>Fall 2025</div>
+        <div class="course-title">Urban Rewilding Studio</div>
+        <div class="course-meta">ENVD 1120<span class="coordinator-badge">Coordinator</span></div>
+        <div class="course-desc">A foundation studio introducing ecological design and site research through the lens of urban rewilding.</div>
+      </a>
+
+      <a class="course-card is-link" href="courses/graphic-design-and-portfolio/" data-level="emerging-technology">
+        <div class="course-img"><img src="courses/graphic-design-and-portfolio/media/01-poster-exercises/01-post-covid-public-service/01-shared-experience-after-isolation-thumb.webp" alt="Graphic Design and Portfolio, poster exercise" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
+        <div class="course-tagrow">Emerging Technology<span class="pipe">|</span>Spring 2025</div>
+        <div class="course-title">Graphic Design and Portfolio</div>
+        <div class="course-meta">ENVD 4052</div>
+        <div class="course-desc">A seminar and workshop on visual communication and professional portfolio development.</div>
+      </a>
+
+      <a class="course-card is-link" href="courses/luminaire-studio/" data-level="studios">
+        <div class="course-img"><img src="courses/luminaire-studio/media/01-owl/01-owl-finished-luminaire-thumb.webp" alt="Luminaire Studio, Owl luminaire" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
+        <div class="course-tagrow">Foundation<span class="pipe">|</span>Fall 2024</div>
+        <div class="course-title">Luminaire Studio</div>
+        <div class="course-meta">ENVD 1110<span class="coordinator-badge">Coordinator</span></div>
+        <div class="course-desc">A foundation studio in material exploration and digital fabrication, centered on the design of a single luminous object.</div>
+      </a>
+
+      <a class="course-card is-link" href="courses/theory-and-ethics-of-design/" data-level="seminars">
+        <div class="course-img"><img src="courses/theory-and-ethics-of-design/media/dieter-rams-raster.jpg" alt="Theory and Ethics of Design, halftone portrait referencing Dieter Rams" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
+        <div class="course-tagrow">Seminar / Special Topics<span class="pipe">|</span>2017 to 2025</div>
+        <div class="course-title">Theory and Ethics of Design</div>
+        <div class="course-meta">EPOD 3101</div>
+        <div class="course-desc">A seminar on critical and ethical inquiry in design practice.</div>
+      </a>
+
+      <a class="course-card is-link" href="courses/epop-retail-outlet/" data-level="design-build">
+        <div class="course-img"><img src="courses/epop-retail-outlet/media/01-proposals/01-framed/01-framed-proposal-thumb.webp" alt="EPOP Retail Outlet, Framed proposal" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
+        <div class="course-tagrow">Design-Build<span class="pipe">|</span>Fall 2019</div>
+        <div class="course-title">EPOP Retail Outlet</div>
+        <div class="course-meta">EPOD 3100<span class="coordinator-badge">Coordinator</span></div>
+        <div class="course-desc">An advanced studio in entrepreneurship and professional practice, designing and building a retail environment.</div>
+      </a>
+
+      <a class="course-card is-link" href="courses/studio-one-product-design/" data-level="studios">
+        <div class="course-img"><img src="courses/studio-one-product-design/media/01-school-super-sidekick/01-school-super-sidekick-prototype-thumb.webp" alt="Studio I Environmental Product Design, School Super Sidekick prototype" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
+        <div class="course-tagrow">Foundation<span class="pipe">|</span>2020 to 2024</div>
+        <div class="course-title">Studio I | Environmental Product Design</div>
+        <div class="course-meta">ENVD 1010<span class="coordinator-badge">Coordinator</span></div>
+        <div class="course-desc">A foundation studio in environmental product design.</div>
+      </a>
+
+      <a class="course-card is-link" href="courses/advanced-digital-modeling-with-rhino/" data-level="emerging-technology">
+        <div class="course-img"><img src="courses/advanced-digital-modeling-with-rhino/media/01-eames-revolution/01-eames-revolution-city-plan-thumb.webp" alt="Advanced Digital Modeling with Rhino, Eames Revolution city plan" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
+        <div class="course-tagrow">Emerging Technology<span class="pipe">|</span>2010 to 2023</div>
+        <div class="course-title">Advanced Digital Modeling with Rhino</div>
+        <div class="course-meta">ENVD 2352</div>
+        <div class="course-desc">A seminar in computational design and digital fabrication using Rhino.</div>
+      </a>
+
+    </div>
+  </div>
 
   {% assign featured_ids = site.data.student_evaluation_quotes.featuredQuoteIds %}
   {% assign all_courses = site.data.student_evaluation_quotes.courses %}
@@ -52,125 +157,5 @@ extra_js: /assets/js/teaching-index.js
         {% for fid in featured_ids %}<button class="quote-dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}" aria-label="Quote {{ forloop.index }}"></button>{% endfor %}
       </div>
       <script type="application/json" class="quote-data">[{% for fid in featured_ids %}{% assign qtext = "" %}{% assign qattr = "" %}{% for c in all_courses %}{% for q in c.quotes %}{% if q.id == fid %}{% assign qtext = q.text %}{% assign qattr = c.title | append: " | " | append: q.term | append: " course evaluation" %}{% endif %}{% endfor %}{% endfor %}{"text": {{ qtext | jsonify }}, "attr": {{ qattr | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
-    </div>
-  </section>
-
-  <div class="wrap">
-    <div class="prog-row" id="progRow">
-      <div class="prog-seg active" data-level="all"><div class="prog-seg-label">ALL LEVELS</div><div class="prog-seg-sub">12 courses</div></div>
-      <div class="prog-seg" data-level="foundation"><div class="prog-seg-label">FOUNDATION</div><div class="prog-seg-sub">intro studio</div></div>
-      <div class="prog-seg" data-level="advanced"><div class="prog-seg-label">ADVANCED</div><div class="prog-seg-sub">options studio</div></div>
-      <div class="prog-seg" data-level="capstone"><div class="prog-seg-label">CAPSTONE</div><div class="prog-seg-sub">thesis studio</div></div>
-      <div class="prog-seg" data-level="seminar"><div class="prog-seg-label">SEMINARS</div><div class="prog-seg-sub">special topics</div></div>
-    </div>
-
-    <div class="filter-count" id="filterCount">Showing all 12 courses</div>
-
-    <div class="course-grid" id="courseGrid">
-
-      <a class="course-card is-link" href="courses/generative-design-with-ai/" data-level="seminar" data-ai="true">
-        <div class="course-img"><img src="courses/generative-design-with-ai/media/01-control-geometry/01-multistory-building/05-refined-multistory-building-thumb.webp" alt="Generative Design with AI student work" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
-        <div class="course-tagrow">Seminar / Special Topics<span class="pipe">|</span>Spring 2026<span class="pipe">|</span><span class="ai-tag">AI Collaboration</span></div>
-        <div class="course-title">Generative Design with AI</div>
-        <div class="course-meta">ENVD 4365-002</div>
-        <div class="course-desc">CU Boulder's first generative AI design course, framing AI as a creative collaborator while foregrounding human authorship and ethical agency.</div>
-      </a>
-
-      <a class="course-card is-link" href="courses/design-build-studios/" data-level="advanced">
-        <div class="course-img"><img src="courses/design-build-studios/media/01-luminous-ticket-centers/04-completed-luminous-exterior-thumb.webp" alt="Design-Build Studios, completed luminous ticket center" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
-        <div class="course-tagrow">Advanced / Options<span class="pipe">|</span>Studio<span class="pipe">|</span>Design-Build</div>
-        <div class="course-title">Design-Build Studios</div>
-        <div class="course-meta">ENVD 3300 &nbsp;|&nbsp; Three projects, 2017 to 2019</div>
-        <div class="course-desc">Three community design-build partnerships, including work with Denver Botanic Gardens and the Northeast Denver Housing Center, carried from concept through construction.</div>
-      </a>
-
-      <a class="course-card is-link" href="courses/iceland-slow-sauna-competition/" data-level="capstone">
-        <div class="course-img"><img src="courses/iceland-slow-sauna-competition/media/01-dvelja-to-dwell/01-volcanic-landscape-arrival-thumb.webp" alt="Iceland Slow Sauna Competition, volcanic landscape arrival" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
-        <div class="course-tagrow">Capstone / Thesis<span class="pipe">|</span>Spring 2026</div>
-        <div class="course-title">Iceland Slow Sauna Competition</div>
-        <div class="course-meta">ARCH 4100-11</div>
-        <div class="course-desc">A capstone thesis studio researching ritual, light, and material response to the Icelandic landscape through four sauna and bathing proposals.</div>
-      </a>
-
-      <a class="course-card is-link" href="courses/museum-of-analog-experience/" data-level="capstone">
-        <div class="course-img"><img src="courses/museum-of-analog-experience/media/03-museum-of-analog-experiences/00-screened-museum-facade-thumb.webp" alt="Museum of Analog Experience, screened facade" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
-        <div class="course-tagrow">Capstone / Thesis<span class="pipe">|</span>Spring 2025</div>
-        <div class="course-title">Museum of Analog Experience</div>
-        <div class="course-meta">ARCH 4100-11</div>
-        <div class="course-desc">A capstone thesis studio imagining museums built around slowness, craft, and analog experience in a digital age.</div>
-      </a>
-
-      <a class="course-card is-link" href="courses/epod-capstone-retrospective/" data-level="capstone">
-        <div class="course-img"><img src="courses/epod-capstone-retrospective/media/furniture/moza/04-moza-exploded-assembly-thumb.webp" alt="EPOD Capstone Studio, Moza stool exploded assembly" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
-        <div class="course-tagrow">Capstone / Thesis<span class="pipe">|</span>2016 to 2024</div>
-        <div class="course-title">EPOD Capstone Studio</div>
-        <div class="course-meta">EPOD 4100</div>
-        <div class="course-desc">Environmental Product Design capstone studio spanning entrepreneurship, professional practice, and independent thesis research.</div>
-      </a>
-
-      <a class="course-card is-link" href="courses/urban-rewilding-studio/" data-level="foundation">
-        <div class="course-img"><img src="courses/urban-rewilding-studio/media/01-backyard-species-network/01-backyard-species-network-thumb.webp" alt="Urban Rewilding Studio, backyard species network" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
-        <div class="course-tagrow">Foundation<span class="pipe">|</span>Fall 2025</div>
-        <div class="course-title">Urban Rewilding Studio</div>
-        <div class="course-meta">ENVD 1120<span class="coordinator-badge">Coordinator</span></div>
-        <div class="course-desc">A foundation studio introducing ecological design and site research through the lens of urban rewilding.</div>
-      </a>
-
-      <a class="course-card is-link" href="courses/graphic-design-and-portfolio/" data-level="seminar">
-        <div class="course-img"><img src="courses/graphic-design-and-portfolio/media/01-poster-exercises/01-post-covid-public-service/01-shared-experience-after-isolation-thumb.webp" alt="Graphic Design and Portfolio, poster exercise" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
-        <div class="course-tagrow">Seminar / Special Topics<span class="pipe">|</span>Spring 2025</div>
-        <div class="course-title">Graphic Design and Portfolio</div>
-        <div class="course-meta">ENVD 4052</div>
-        <div class="course-desc">A seminar and workshop on visual communication and professional portfolio development.</div>
-      </a>
-
-      <a class="course-card is-link" href="courses/luminaire-studio/" data-level="foundation">
-        <div class="course-img"><img src="courses/luminaire-studio/media/01-owl/01-owl-finished-luminaire-thumb.webp" alt="Luminaire Studio, Owl luminaire" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
-        <div class="course-tagrow">Foundation<span class="pipe">|</span>Fall 2024</div>
-        <div class="course-title">Luminaire Studio</div>
-        <div class="course-meta">ENVD 1110<span class="coordinator-badge">Coordinator</span></div>
-        <div class="course-desc">A foundation studio in material exploration and digital fabrication, centered on the design of a single luminous object.</div>
-      </a>
-
-      <a class="course-card is-link" href="courses/theory-and-ethics-of-design/" data-level="seminar">
-        <div class="course-img"><img src="courses/theory-and-ethics-of-design/media/dieter-rams-raster.jpg" alt="Theory and Ethics of Design, halftone portrait referencing Dieter Rams" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
-        <div class="course-tagrow">Seminar / Special Topics<span class="pipe">|</span>2017 to 2025</div>
-        <div class="course-title">Theory and Ethics of Design</div>
-        <div class="course-meta">EPOD 3101</div>
-        <div class="course-desc">A seminar on critical and ethical inquiry in design practice.</div>
-      </a>
-
-      <a class="course-card is-link" href="courses/epop-retail-outlet/" data-level="advanced">
-        <div class="course-img"><img src="courses/epop-retail-outlet/media/01-proposals/01-framed/01-framed-proposal-thumb.webp" alt="EPOP Retail Outlet, Framed proposal" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
-        <div class="course-tagrow">Advanced / Options<span class="pipe">|</span>Fall 2019</div>
-        <div class="course-title">EPOP Retail Outlet</div>
-        <div class="course-meta">EPOD 3100<span class="coordinator-badge">Coordinator</span></div>
-        <div class="course-desc">An advanced studio in entrepreneurship and professional practice, designing and building a retail environment.</div>
-      </a>
-
-      <a class="course-card is-link" href="courses/studio-one-product-design/" data-level="foundation">
-        <div class="course-img"><img src="courses/studio-one-product-design/media/01-school-super-sidekick/01-school-super-sidekick-prototype-thumb.webp" alt="Studio I Environmental Product Design, School Super Sidekick prototype" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
-        <div class="course-tagrow">Foundation<span class="pipe">|</span>2020 to 2024</div>
-        <div class="course-title">Studio I | Environmental Product Design</div>
-        <div class="course-meta">ENVD 1010<span class="coordinator-badge">Coordinator</span></div>
-        <div class="course-desc">A foundation studio in environmental product design.</div>
-      </a>
-
-      <a class="course-card is-link" href="courses/advanced-digital-modeling-with-rhino/" data-level="seminar">
-        <div class="course-img"><img src="courses/advanced-digital-modeling-with-rhino/media/01-eames-revolution/01-eames-revolution-city-plan-thumb.webp" alt="Advanced Digital Modeling with Rhino, Eames Revolution city plan" onerror="this.closest('.course-img').classList.add('no-image');this.remove();"></div>
-        <div class="course-tagrow">Seminar / Special Topics<span class="pipe">|</span>2010 to 2023</div>
-        <div class="course-title">Advanced Digital Modeling with Rhino</div>
-        <div class="course-meta">ENVD 2352</div>
-        <div class="course-desc">A seminar in computational design and digital fabrication using Rhino.</div>
-      </a>
-
-    </div>
-  </div>
-
-  <section class="quote-block">
-    <div class="wrap">
-      <div class="quote-eyebrow">Teaching Philosophy</div>
-      <div class="quote-static-text">"Love is a better teacher than a sense of duty."</div>
-      <div class="quote-static-attr">Albert Einstein</div>
     </div>
   </section>

@@ -1,19 +1,14 @@
 # About
 
-I'm a designer and educator working across architecture, environmental product design, design-build, visual communication, and now human-AI collaboration in the design process. I joined the Department of Environmental Design at the University of Colorado Boulder in 2010, and I've taught across the entire curriculum from the first foundational studios through final capstone studios. I feel it is a great honor and privilege to be able to collaborate with such talented and principled students. I hold our work together in the highest esteem.
+I grew up in the forests of Aberdeen, Washington, a coastal logging and fishing town known for nearly 300 cloudy days a year. Boulder, where I live now, is almost the exact opposite.
 
-My teaching and design work share a central concern: how people develop the judgment, resilience, empathy, and agency to make responsible choices. I value process over polish alone, deep and simple ideas over shallow complexity, and technology that remains rooted in human and ecological experience.
+In 2002, while working in a cancer research lab, I took my first architecture studio course at the University of Washington. I found my people and my purpose almost immediately. I have never really left the studio since.
 
-Alongside teaching, I contribute through curriculum coordination, committee leadership, community partnerships, public programming, and faculty development. I see this work as part of the same practice: creating the conditions in which people can do ambitious work together.
+What I love most about design education is its willingness to grapple with big ideas. The studio gives ideas room to become ambitious before budgets and other practical limits begin to narrow the field. I value that freedom, and the challenge of helping students develop the judgment to carry ambitious ideas into reality.
 
-## Selected Leadership and Service
+While earning my master's degree in architecture at the Illinois Institute of Technology in Chicago, I met my wife, Lindsay, who was studying architecture at UIC. We worked internationally for a time before eventually finding our way to Colorado. We married in 2012 and have since welcomed two children, who are at the center of our lives.
 
-+ ENVD Executive Committee Teaching Faculty Representative
-+ Chair, ENVD Lectures Committee and Scholarship Committee
-+ CMDI Faculty Council and ACAD Committee leadership
-+ Boulder Faculty Assembly AI Working Group
-+ AI Literacy Ambassador
-+ Design-build and community partnerships, including Denver Botanic Gardens
+As for the very current version of me: espresso, running, incredible hikes, and pretty much anything to do with Japan.
 
-The final page should remain concise and personal. Detailed appointments, dates, committees, awards, and service records belong in the resume rather than in the primary narrative.
+Detailed appointments, dates, committees, awards, and service records belong in the resume and academic CV rather than in the primary narrative.
 
