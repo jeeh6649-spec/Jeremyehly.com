@@ -1,0 +1,50 @@
+{
+  "project": "12th & Bannock | Residential + Retail",
+  "client": "Wanna Develop Fast.Inc",
+  "studio": "Frictionless Design Studio",
+  "stage": "Developer Review",
+  "decision_requested": "Advance design and re-underwriting",
+  "basis": "Supplied TestFit exports, November 11 2026; not repriced for retail/pool/balconies/landscape",
+  "baseline": {
+    "units": 41,
+    "studio": 8,
+    "one_bedroom": 18,
+    "two_bedroom": 15,
+    "site_acres": 0.46,
+    "parking_spaces": 32,
+    "residential_nrsf": 32113,
+    "gross_conditioned_sf": 42830,
+    "gross_sf": 56570,
+    "revenue_annual": 728092,
+    "expenses_annual": 404496,
+    "noi_annual": 323596,
+    "hard_cost": 5657000,
+    "soft_cost": 1697100,
+    "land_cost": 399220,
+    "earthwork_cost": 3050,
+    "total_cost": 7756370,
+    "cap_rate": 0.05,
+    "exported_value": 6471936,
+    "exported_yield_on_cost": 0.0417
+  },
+  "derived": {
+    "value_less_cost": -1284434,
+    "value_less_cost_pct": -0.16559730905049655,
+    "break_even_noi_at_5pct": 387818.5,
+    "additional_noi_to_break_even": 64222.5
+  },
+  "proposed_plan": {
+    "level_1_parking_spaces_illustrated": 18,
+    "retail_bays": 5,
+    "north_west_projection_ft": 8,
+    "level_2_units": 11,
+    "pool_ft": [
+      15,
+      28
+    ],
+    "B4_revised_for_common_access": true,
+    "revised_rentable_areas": "not yet measured",
+    "revised_project_cost": "not yet estimated"
+  },
+  "presentation_context": "Fictional lecture demonstration. Public-facing caveats intentionally omitted for critique; financial values unchanged."
+}
