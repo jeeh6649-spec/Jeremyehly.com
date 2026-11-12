@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Friction by Design | Resources + conversation</title>
+<meta name="description" content="Sources, videos and a demonstration workflow for the Friction by Design talk at AIA Colorado 2026.">
+<link rel="canonical" href="https://jeremyehly.com/resources/friction/">
+<meta property="og:title" content="Friction by Design | Resources + conversation">
+<meta property="og:description" content="Sources, videos and a demonstration workflow for the Friction by Design talk at AIA Colorado 2026.">
+<style>
+/* Layout | one narrow column read on a phone from a QR code. A filled ink circle marks a video,
+   an outlined ring marks everything else. Videos first, then the demonstration, then reading, then a way to reply. */
+@font-face{font-family:"Gilroy";src:url(assets/gilroy-1.otf) format("opentype");font-weight:800;font-style:normal;font-display:swap}
+@font-face{font-family:"Gilroy";src:url(assets/gilroy-2.otf) format("opentype");font-weight:300;font-style:normal;font-display:swap}
+:root{
+  --ink:#1A1A18; --body:#444444; --mid:#888888; --rule:#D0D0D0; --bg:#EDECEA;
+  --display:"Gilroy",-apple-system,"Helvetica Neue",Arial,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--display);font-weight:300;margin:0;
+  padding-left:max(20px,4.6vw,env(safe-area-inset-left,0px));
+  padding-right:max(20px,4.6vw,env(safe-area-inset-right,0px));
+  padding-block:clamp(28px,6vh,72px);-webkit-text-size-adjust:100%}
+.wrap{max-width:720px;margin:0 auto}
+a{color:inherit}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+
+.top{display:flex;align-items:center;gap:20px}
+.dot{width:56px;height:56px;border-radius:50%;background:var(--ink);flex:0 0 auto}
+.eyebrow{font-weight:300;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--mid);margin:0}
+h1{font-weight:800;font-size:clamp(1.9rem,7.4vw,3rem);line-height:1.02;letter-spacing:-.035em;margin:.9em 0 0;text-wrap:balance}
+.sub{font-weight:300;font-size:1rem;line-height:1.45;color:var(--body);margin:1.1em 0 0;max-width:34ch}
+.lead{font-weight:300;font-size:.95rem;line-height:1.6;color:var(--body);margin:2.2em 0 0;max-width:46ch}
+
+section{margin-top:clamp(36px,7vh,64px)}
+h2{font-weight:800;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);
+  margin:0;padding-bottom:.9em;border-bottom:.5px solid var(--rule)}
+ol{list-style:none;margin:0;padding:0}
+li{display:grid;grid-template-columns:22px minmax(0,1fr);column-gap:16px;padding:clamp(20px,3.4vh,30px) 0;border-bottom:.5px solid var(--rule)}
+.mk{width:14px;height:14px;border-radius:50%;margin-top:.42em}
+.mk.film{background:var(--ink)}
+.mk.read{border:1.5px solid var(--ink)}
+h3{font-weight:800;font-size:clamp(1.15rem,4.6vw,1.45rem);line-height:1.15;letter-spacing:-.022em;margin:0;text-wrap:balance}
+h3 a{text-decoration:none}
+h3 a:hover{text-decoration:underline;text-underline-offset:.18em}
+.meta{font-weight:300;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--mid);margin:.7em 0 0;line-height:1.5}
+.vid{display:block;width:100%;aspect-ratio:16/9;border:0;background:var(--rule);margin-top:1.1em}
+.ov{font-weight:300;font-size:.95rem;line-height:1.6;color:var(--body);margin:.9em 0 0;max-width:52ch}
+.use{font-weight:300;font-size:.9rem;line-height:1.5;color:var(--body);margin:.8em 0 0;max-width:52ch}
+.use b{font-weight:800;color:var(--ink);letter-spacing:-.01em}
+.go{display:inline-block;font-weight:800;font-size:.82rem;letter-spacing:-.01em;margin-top:1em;overflow-wrap:anywhere}
+.go + .go{margin-left:1.4em}
+
+/* reply form | underlined fields, a circle for the button */
+.reach .ov{margin-top:1.4em}
+form{margin-top:1.6em;display:grid;gap:1.6em;max-width:52ch}
+.f{display:grid;gap:.5em}
+label{font-weight:300;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--mid)}
+label span{letter-spacing:.04em;text-transform:none}
+input,textarea{font:inherit;font-weight:300;font-size:1rem;line-height:1.5;color:var(--ink);background:transparent;
+  border:0;border-bottom:1px solid var(--ink);border-radius:0;padding:.45em 0;width:100%;resize:vertical;-webkit-appearance:none;appearance:none}
+textarea{min-height:7.5em}
+input::placeholder,textarea::placeholder{color:var(--mid)}
+.send{display:flex;align-items:center;gap:20px}
+button{font:inherit;font-weight:800;font-size:.92rem;letter-spacing:-.01em;width:76px;height:76px;border-radius:50%;
+  background:var(--ink);color:var(--bg);border:0;cursor:pointer;flex:0 0 auto}
+button[disabled]{opacity:.5;cursor:default}
+.status{font-weight:300;font-size:.92rem;line-height:1.5;color:var(--body);margin:0}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+footer{margin-top:clamp(36px,7vh,64px)}
+footer p{font-weight:300;font-size:.78rem;line-height:1.6;color:var(--mid);margin:0}
+footer b{font-weight:800;color:var(--ink)}
+nav{display:flex;flex-wrap:wrap;gap:12px 22px;margin-top:28px;padding-bottom:22px;border-bottom:1px solid var(--rule);font-size:.9rem}nav a{text-underline-offset:5px}.invitation{font-weight:800;font-size:clamp(1.6rem,6vw,2.4rem);line-height:1.13;max-width:20ch}.contact{display:inline-block;margin-top:24px;padding:14px 22px;background:var(--ink);color:var(--bg);font-weight:800;text-decoration:none}.ov a{overflow-wrap:anywhere}.meta,.eyebrow,footer p{color:#666661}footer{padding-top:28px;border-top:1px solid var(--rule)}@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <div class="top">
+    <div class="dot" aria-hidden="true"></div>
+    <p class="eyebrow">Sources | AIA Colorado 2026</p>
+  </div>
+  <h1>Friction by Design</h1>
+  <p class="sub">Where Slowness Belongs in an AI-Assisted Practice</p>
+  <p class="lead">The conversation continues here. Revisit the sources, explore the tools, and share what you want to protect in your own design practice.</p>
+
+  <nav aria-label="Resources"><a href="#watch">Watch</a><a href="#critique">The demonstration</a><a href="#read">Read</a><a href="#tools">Tools</a><a href="#reach">Get in touch</a></nav>
+  <section aria-labelledby="watch">
+    <h2 id="watch">Watch</h2>
+    <ol>
+      <li>
+        <span class="mk film" aria-hidden="true"></span>
+        <div>
+          <h3><a href="https://www.youtube.com/live/V51RvOuefY0" target="_blank" rel="noopener">The Death of the Architect</a></h3>
+          <p class="meta">Neil Leach | DigitalFUTURES live stream | August 30, 2026</p>
+          <iframe class="vid" src="https://www.youtube-nocookie.com/embed/V51RvOuefY0" title="The Death of the Architect, Neil Leach, DigitalFUTURES" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
+          <p class="ov">A live stream on the future of the architect. Leach sets out a pyramid-to-rocket scenario to ask how many architects a world of AI will need. He offers it as an illustration, and no data sits behind it.</p>
+          <p class="use"><b>In the talk</b> | how many architects</p>
+          <a class="go" href="https://www.youtube.com/live/V51RvOuefY0" target="_blank" rel="noopener">Watch on YouTube</a>
+        </div>
+      </li>
+      <li>
+        <span class="mk film" aria-hidden="true"></span>
+        <div>
+          <h3><a href="https://youtu.be/X1WvG10zG-M" target="_blank" rel="noopener">I Built an Entire Architecture Project in ONE DAY with GPT Astra!</a></h3>
+          <p class="meta">ArchiTech Network | YouTube</p>
+          <iframe class="vid" src="https://www.youtube-nocookie.com/embed/X1WvG10zG-M" title="I Built an Entire Architecture Project in ONE DAY with GPT Astra" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
+          <p class="ov">A whole architecture project taken from start to finish in a single day with GPT Astra. It is the picture behind the talk's frictionless day.</p>
+          <p class="use"><b>In the talk</b> | the frictionless day and the agentic phase</p>
+          <a class="go" href="https://youtu.be/X1WvG10zG-M" target="_blank" rel="noopener">Watch on YouTube</a>
+        </div>
+      </li>
+      <li>
+        <span class="mk film" aria-hidden="true"></span>
+        <div>
+          <h3><a href="https://youtu.be/tyZkX3uKU6Y" target="_blank" rel="noopener">#73 AI Is About to Change Architecture Forever, Tim Fu on Astra, AI Agents</a></h3>
+          <p class="meta">Parametric Architecture | YouTube</p>
+          <iframe class="vid" src="https://www.youtube-nocookie.com/embed/tyZkX3uKU6Y" title="#73 AI Is About to Change Architecture Forever, Tim Fu on Astra, AI Agents" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
+          <p class="ov">A conversation with Tim Fu about Astra and AI agents. His claims are his own predictions, and the talk presents them that way.</p>
+          <p class="use"><b>In the talk</b> | where we are now and the agentic phase</p>
+          <a class="go" href="https://youtu.be/tyZkX3uKU6Y" target="_blank" rel="noopener">Watch on YouTube</a>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="critique">
+    <h2 id="critique">Critique</h2>
+    <ol>
+      <li>
+        <span class="mk read" aria-hidden="true"></span>
+        <div>
+          <h3><a href="https://jeremyehly.com/resources/friction/12th-bannock/" target="_blank" rel="noopener">12th &amp; Bannock</a></h3>
+          <p class="meta">Frictionless Design Studio | Developer Review | Denver, Colorado</p>
+          <p class="ov">The demonstration workflow from the talk, set up as a developer review of a residential and retail project for a fictional client. It moves through design, plans, economics and a decision. A non-f(r)iction application of the tools.</p>
+          <p class="use"><b>In the talk</b> | the frictionless design process in action</p>
+          <a class="go" href="https://jeremyehly.com/resources/friction/12th-bannock/" target="_blank" rel="noopener">Open the demonstration</a>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="read">
+    <h2 id="read">Read</h2>
+    <ol>
+<li><span class="mk read" aria-hidden="true"></span><div><h3><a href="https://www.anthropic.com/research/labor-market-impacts" target="_blank" rel="noopener">Labor market impacts of AI: A new measure</a></h3><p class="meta">Anthropic | Research</p><p class="ov">The research behind the lecture’s comparison of theoretical AI capability and observed use at work.</p></div></li><li><span class="mk read" aria-hidden="true"></span><div><h3><a href="https://aecmag.com/bim/gpt-6-astra-and-the-future-of-bim-modelling/" target="_blank" rel="noopener">GPT-6 Astra and the future of BIM modelling</a></h3><p class="meta">AEC Magazine | Review</p><p class="ov">The BIM experiments discussed in the lecture, including the gap between producing geometry and producing usable, editable architecture.</p></div></li><li><span class="mk read" aria-hidden="true"></span><div><h3><a href="https://www.housingwire.com/articles/how-honolulu-leveraged-ai-to-cut-permit-review-times-in-half/" target="_blank" rel="noopener">How Honolulu leveraged AI to cut permit review times in half</a></h3><p class="meta">HousingWire | Permitting</p><p class="ov">Reporting on Honolulu’s use of CivCheck. Read alongside the distinction between plan-review time and the full time to receive a permit.</p></div></li>
+      <li>
+        <span class="mk read" aria-hidden="true"></span>
+        <div>
+          <h3><a href="https://www.oneusefulthing.org/p/choosing-to-stay-human" target="_blank" rel="noopener">Choosing to Stay Human</a></h3>
+          <p class="meta">Ethan Mollick | One Useful Thing | May 26, 2026</p>
+          <p class="ov">Sorts what we hand to AI into settled, contested and unknown. Separates performance from learning, and shows how defaults decide what gets offloaded. The studies behind it are the Turkey math study, the Taipei Python study and the BCG consultants.</p>
+          <p class="use"><b>In the talk</b> | the three kinds of offloading, performance versus learning, and defaults</p>
+          <a class="go" href="https://www.oneusefulthing.org/p/choosing-to-stay-human" target="_blank" rel="noopener">oneusefulthing.org</a>
+        </div>
+      </li>
+      <li>
+        <span class="mk read" aria-hidden="true"></span>
+        <div>
+          <h3><a href="https://www.riba.org/work/insights-and-resources/ai-report/" target="_blank" rel="noopener">RIBA Artificial Intelligence Report 2026</a></h3>
+          <p class="meta">Royal Institute of British Architects | August 2026</p>
+          <p class="ov">The third RIBA survey of AI in practice, fielded March to April 2026 with more than 1,100 respondents. Adoption rose from 41% to 59% to 74% across the 2024, 2025 and 2026 surveys. Respondents chose to take part, so read the figures as a signal and not a census.</p>
+          <p class="use"><b>In the talk</b> | adoption over time, productivity versus better designs, and worry about early-career skills</p>
+          <a class="go" href="https://www.riba.org/work/insights-and-resources/ai-report/" target="_blank" rel="noopener">Report page</a><a class="go" href="https://www.riba.org/media/3f2bcutw/riba-ai-report-2026-aug.pdf" target="_blank" rel="noopener">Full PDF</a>
+        </div>
+      </li>
+      <li>
+        <span class="mk read" aria-hidden="true"></span>
+        <div>
+          <h3><a href="https://christopherbasgier.substack.com/p/ai-requires-inviting-our-students" target="_blank" rel="noopener">Basgier and Wardle on values guiding AI use</a></h3>
+          <p class="meta">Basgier and Wardle | Substack | April 15, 2026</p>
+          <p class="ov">A framework for letting values guide when and how we use AI. It starts from what we care about, then takes one step at a time. It was written for teaching, and it works for any practice that has to decide what to hand over and what to keep.</p>
+          <p class="use"><b>In the talk</b> | values first, one step</p>
+          <a class="go" href="https://christopherbasgier.substack.com/p/ai-requires-inviting-our-students" target="_blank" rel="noopener">christopherbasgier.substack.com</a>
+        </div>
+      </li>
+      <li>
+        <span class="mk read" aria-hidden="true"></span>
+        <div>
+          <h3><a href="https://medium.com/disruptive-design/the-dangers-of-frictionless-design-8d299e261567" target="_blank" rel="noopener">The Dangers of Frictionless Design</a></h3>
+          <p class="meta">Acaroglu | Medium | September 30, 2026</p>
+          <p class="ov">An argument that removing every point of resistance from design carries a cost.</p>
+          <p class="use"><b>In the talk</b> | one slide on the other meaning of friction</p>
+          <a class="go" href="https://medium.com/disruptive-design/the-dangers-of-frictionless-design-8d299e261567" target="_blank" rel="noopener">medium.com</a>
+        </div>
+      </li>
+      <li>
+        <span class="mk read" aria-hidden="true"></span>
+        <div>
+          <h3><a href="https://www.nytimes.com/2026/09/08/science/openai-proof-millennium-problem.html" target="_blank" rel="noopener">Tao in The New York Times</a></h3>
+          <p class="meta">The New York Times | September 8, 2026</p>
+          <p class="ov">Tao in the Times, and the source of the gym image. A subscription may be needed to read it.</p>
+          <p class="use"><b>In the talk</b> | the gym</p>
+          <a class="go" href="https://www.nytimes.com/2026/09/08/science/openai-proof-millennium-problem.html" target="_blank" rel="noopener">nytimes.com</a>
+        </div>
+      </li>
+      <li>
+        <span class="mk read" aria-hidden="true"></span>
+        <div>
+          <h3><a href="https://gutenberg.org/files/1636/1636-h/1636-h.htm" target="_blank" rel="noopener">Phaedrus</a></h3>
+          <p class="meta">Plato | Benjamin Jowett translation | Project Gutenberg</p>
+          <p class="ov">The old worry that a new tool for memory will weaken the mind that uses it. The tale of Theuth and the king of Egypt, who judges the gift of writing, comes near the end of the dialogue.</p>
+          <p class="use"><b>In the talk</b> | writing, memory and judgment</p>
+          <a class="go" href="https://gutenberg.org/files/1636/1636-h/1636-h.htm" target="_blank" rel="noopener">Read the translation</a>
+        </div>
+      </li>
+      <li>
+        <span class="mk read" aria-hidden="true"></span>
+        <div>
+          <h3><a href="https://www.linkedin.com/pulse/productive-friction-age-ai-kristin-gleitsman-dsh3c/" target="_blank" rel="noopener">Productive Friction in the Age of AI</a></h3>
+          <p class="meta">Kristin Gleitsman | LinkedIn</p>
+          <p class="ov">Further reading on friction that helps.</p>
+          <a class="go" href="https://www.linkedin.com/pulse/productive-friction-age-ai-kristin-gleitsman-dsh3c/" target="_blank" rel="noopener">linkedin.com</a>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+<section aria-labelledby="tools"><h2 id="tools">Tools in the lecture</h2><p class="ov">Official product and learning links for the workflow discussed in the talk.</p><ol><li><span class="mk read" aria-hidden="true"></span><div><h3><a href="https://www.testfit.io/" target="_blank" rel="noopener">TestFit</a></h3><p class="meta">Site feasibility</p><p class="ov">Site planning, parking, massing and development scenarios.</p></div></li><li><span class="mk read" aria-hidden="true"></span><div><h3><a href="https://vizcom.com/" target="_blank" rel="noopener">Vizcom</a></h3><p class="meta">Visualization</p><p class="ov">Image-led design exploration and rendered studies.</p></div></li><li><span class="mk read" aria-hidden="true"></span><div><h3><a href="https://www.rhino3d.com/" target="_blank" rel="noopener">Rhino 8 + Grasshopper</a></h3><p class="meta">Modeling</p><p class="ov">The detailed model and its adjustable residential floor count and floor heights.</p></div></li><li><span class="mk read" aria-hidden="true"></span><div><h3><a href="https://www.rhino3d.com/learn/?query=kind%3A%20grasshopper" target="_blank" rel="noopener">Grasshopper learning resources</a></h3><p class="meta">McNeel | Learning</p><p class="ov">Official tutorials for working with parametric definitions.</p></div></li><li><span class="mk read" aria-hidden="true"></span><div><h3><a href="https://openai.com/index/chatgpt/" target="_blank" rel="noopener">ChatGPT</a></h3><p class="meta">AI collaboration</p><p class="ov">Brief development, design iteration and the agentic workflow discussed in the lecture.</p></div></li><li><span class="mk read" aria-hidden="true"></span><div><h3><a href="https://claude.ai/" target="_blank" rel="noopener">Claude</a></h3><p class="meta">Presentation development</p><p class="ov">A collaborator in preparing and editing the lecture.</p></div></li><li><span class="mk read" aria-hidden="true"></span><div><h3><a href="https://www.autodesk.com/products/revit/overview" target="_blank" rel="noopener">Autodesk Revit</a></h3><p class="meta">BIM</p><p class="ov">The BIM and documentation stage illustrated in the demonstration sequence.</p></div></li><li><span class="mk read" aria-hidden="true"></span><div><h3><a href="https://www.civcheck.ai/" target="_blank" rel="noopener">CivCheck</a></h3><p class="meta">Plan review</p><p class="ov">The guided plan-review platform discussed in the permitting sequence.</p></div></li><li><span class="mk read" aria-hidden="true"></span><div><h3><a href="https://www.slido.com/powerpoint-polling" target="_blank" rel="noopener">Slido</a></h3><p class="meta">Audience participation</p><p class="ov">Live questions and audience responses within PowerPoint.</p></div></li><li><span class="mk read" aria-hidden="true"></span><div><h3><a href="https://docs.github.com/en/pages" target="_blank" rel="noopener">GitHub Pages</a></h3><p class="meta">Publishing</p><p class="ov">The hosting workflow used to share the project proposal and these resources.</p></div></li></ol></section><section class="reach" aria-labelledby="reach"><h2 id="reach">Continue the conversation</h2><p class="invitation">What should remain human in your practice?</p><p class="ov">I’d love to hear what stayed with you, what you disagree with, or what you’re trying in your studio or classroom. Reach out with a question, an example, or an invitation to talk.</p><a class="contact" href="mailto:Jeremy.Ehly@colorado.edu?subject=Friction%20by%20Design%20%E2%80%94%20continuing%20the%20conversation">Email Jeremy</a><p class="ov"><a href="mailto:Jeremy.Ehly@colorado.edu">Jeremy.Ehly@colorado.edu</a></p><p class="ov"><a href="https://jeremyehly.com/about/">More about my teaching and practice</a></p></section>
+  <footer>
+    <p><b>Jeremy Ehly</b> | Associate Teaching Professor, ENVD, CU Boulder</p>
+    <p>AIA Colorado 2026 | Keystone | 11.12.2026</p>
+  </footer>
+</div>
+
+
+
+</body>
+</html>
